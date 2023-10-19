@@ -48,10 +48,10 @@ BootLoader:		 That boots the operating syste.  Examples of boot loader GRUB & IS
 
 
               
-			Most of other processes running trace their origin to init
-			Init is responsible for keeping the system running and for shutting it down cleanly.
+Most of other processes running trace their origin to init
+Init is responsible for keeping the system running and for shutting it down cleanly.
 
-      ![image](https://github.com/mudassirsh/DevOps/assets/18271814/544734d8-563c-4d98-91ea-cb4544537ab3)
+![image](https://github.com/mudassirsh/DevOps/assets/18271814/544734d8-563c-4d98-91ea-cb4544537ab3)
 
 
 File systems supported by Linux:
