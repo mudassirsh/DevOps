@@ -11,5 +11,3 @@ Create Linux system Installer Installer
 FOO =			means insert file name here.
 
 Kernel:			Kernel is the core of operating system. Glue between hardware and application i.e. Linux kernel	![image](https://github.com/mudassirsh/DevOps/assets/18271814/199d8fbb-1e22-439c-bfb2-f014565a9f5e)
-
-
