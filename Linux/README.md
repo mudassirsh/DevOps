@@ -18,7 +18,7 @@ Kernel:			Kernel is the core of operating system. Glue between hardware and appl
 Distribution:	![image](https://github.com/mudassirsh/DevOps/assets/18271814/66ec433a-915e-49b2-810e-233c72ef6093)
 
 
-Service:			programe that runs as a background process		i.e.	httpd, nfsd, ntpd, ftpd and named	![image](https://github.com/mudassirsh/DevOps/assets/18271814/57e598ce-04d1-4595-9ddf-9e641be9e734)
+Service:			programe that runs as a background process i.e.	httpd, nfsd, ntpd, ftpd and named	![image](https://github.com/mudassirsh/DevOps/assets/18271814/57e598ce-04d1-4595-9ddf-9e641be9e734)
 
 
 FileSystem:		Method for storing and organizing files in linux. 	i.e. ext3, ext4, FAT, XFS, NTFS and Btrfs	
@@ -28,7 +28,7 @@ X Window System:	Provides the standard toolkit and protocol to build graphical u
 ![image](https://github.com/mudassirsh/DevOps/assets/18271814/54d2896f-dd7c-49b6-a076-39e63f880d45)
 
 
-Desktop Env:		GUI on the top of operating system.			GNOME, KDE, Xfce and Fluxbox	are the examples of desktop environments.
+Desktop Env:		GUI on the top of the operating system.			GNOME, KDE, Xfce and Fluxbox	are the examples of desktop environments.
 Command line:		Interface for typing commands on top of the operating system.
 Shell:			    Command line interpreter that interprets the command line input and instructs the operating system to perform any necessary tasks and command. i.e. bash, tcsh, and zsh
 			
@@ -39,10 +39,7 @@ Linux is a full multitasking multiuser operating system with built-in networking
 BIOS:			     Basic Input/Output System. When computer turned on, it runs the self test called POST (power-on self test). Bios software is stored on a ROM chip on the motherboard.
 
 
-BootLoader:		 That boots the operating syste.  Examples of boot loader GRUB & ISOLinux, dos u-boot . Once the post completed, control went to bootloader. Bootloader is stored on the Hard disk.
-			         Bootloader is responsible for loading the Kernel image and initial Ram disk or the file system into memory.
-
-			        Bootloader loads the kernel and the initial ram based file system into memory so it can be used directly by the kernel. 
+BootLoader:	That boots the operating syste.  Examples of boot loader GRUB & ISOLinux, dos u-boot . Once the post completed, control went to bootloader. Bootloader is stored on the Hard disk. Bootloader is responsible for loading the Kernel image and initial Ram disk or the file system into memory. Bootloader loads the kernel and the initial ram based file system into memory so it can be used directly by the kernel. 
 
 ![image](https://github.com/mudassirsh/DevOps/assets/18271814/7df6348e-b409-4ee8-b731-028374f178f4)
 
@@ -55,9 +52,8 @@ Init is responsible for keeping the system running and for shutting it down clea
 
 
 File systems supported by Linux:
-
-                                ![image](https://github.com/mudassirsh/DevOps/assets/18271814/5310dd87-4958-4239-880a-36d4f4924a3b)
+![image](https://github.com/mudassirsh/DevOps/assets/18271814/5310dd87-4958-4239-880a-36d4f4924a3b)
 
 
 Root Directory and file system Hierarchy
-                                ![image](https://github.com/mudassirsh/DevOps/assets/18271814/2db2c20f-cb34-4541-a610-b78d1c0bbad2)
+![image](https://github.com/mudassirsh/DevOps/assets/18271814/2db2c20f-cb34-4541-a610-b78d1c0bbad2)
