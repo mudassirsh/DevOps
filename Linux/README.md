@@ -10,15 +10,15 @@ Create Linux system Installer Installer
 
 FOO =			  means insert file name here.
 
-Kernel:			Kernel is the core of operating system. Glue between hardware and application i.e. Linux kernel	![image](https://github.com/mudassirsh/DevOps/assets/18271814/199d8fbb-1e22-439c-bfb2-f014565a9f5e)
+**Kernel**:		Kernel is the core of operating system. Glue between hardware and application i.e. Linux kernel	![image](https://github.com/mudassirsh/DevOps/assets/18271814/199d8fbb-1e22-439c-bfb2-f014565a9f5e)
 
 
 
 
-Distribution:	![image](https://github.com/mudassirsh/DevOps/assets/18271814/66ec433a-915e-49b2-810e-233c72ef6093)
+**Distribution**:	![image](https://github.com/mudassirsh/DevOps/assets/18271814/66ec433a-915e-49b2-810e-233c72ef6093)
 
 
-Service:			programe that runs as a background process i.e.	httpd, nfsd, ntpd, ftpd and named	![image](https://github.com/mudassirsh/DevOps/assets/18271814/57e598ce-04d1-4595-9ddf-9e641be9e734)
+**Service:**			programe that runs as a background process i.e.	httpd, nfsd, ntpd, ftpd and named	![image](https://github.com/mudassirsh/DevOps/assets/18271814/57e598ce-04d1-4595-9ddf-9e641be9e734)
 
 
 FileSystem:		Method for storing and organizing files in linux. 	i.e. ext3, ext4, FAT, XFS, NTFS and Btrfs	
