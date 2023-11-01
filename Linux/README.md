@@ -1,27 +1,15 @@
-**Linux System**
-
-19/oct
-
-Create Linux system Installer Installer 
-- Downloaded Linux Ubuntu 	(https://ubuntu.com/download/desktop)
-- Download RUFUS tool that converts ISO files to bootable USB drive.  Follow instructions (https://www.onlogic.com/company/io-hub/how-to-dual-boot-windows-11-and-linux/)
+# Linux System
 
 
+- **Kernel:**		
+Kernel is the core of the operating system. Glue between hardware and application i.e. Linux kernel	
 
-FOO =			  means insert file name here.
+<p align="center"> <img src="https://github.com/mudassirsh/DevOps/assets/18271814/0f993386-47c0-4719-a926-8870821a36d6"> <img align="right" width="225" height="225" src="https://github.com/mudassirsh/DevOps/assets/18271814/5892c1e8-1b3c-4d56-9258-5cc80d631bc0"> </p>
 
-
-
-
-**Kernel**:		
-Kernel is the core of operating system. Glue between hardware and application i.e. Linux kernel	![image](https://github.com/mudassirsh/DevOps/assets/18271814/199d8fbb-1e22-439c-bfb2-f014565a9f5e)
-
-
-
-**Distribution**:	
-![image](https://github.com/mudassirsh/DevOps/assets/18271814/66ec433a-915e-49b2-810e-233c72ef6093)
-
-
+- **Distribution:**	
+<p align="center">
+  <img width="460" height="400" src="https://github.com/mudassirsh/DevOps/assets/18271814/56820ecf-53dc-470d-a5a2-c9e8c3a9a6d8">
+</p>
 
 **Service:**			
 programe that runs as a background process i.e.	httpd, nfsd, ntpd, ftpd and named	
@@ -71,3 +59,29 @@ File systems supported by Linux:
 
 Root Directory and file system Hierarchy
 ![image](https://github.com/mudassirsh/DevOps/assets/18271814/2db2c20f-cb34-4541-a610-b78d1c0bbad2)
+
+
+
+## Create Linux system Installer Installer 
+- Downloaded Linux Ubuntu 	(https://ubuntu.com/download/desktop)
+- Download RUFUS tool that converts ISO files to bootable USB drive.  Follow instructions (https://www.onlogic.com/company/io-hub/how-to-dual-boot-windows-11-and-linux/)
+
+	FOO =			  means insert file name here.
+
+
+**Dual Boot installation:**
+
+		Create partition 
+				- Right click at start button and select Disk management.
+				- Find the largest partition
+				- Right click the largest partition and select Shrink Volume
+				- Disk space needed for Linux system multiply by 1024 (100GB * 1024= 102400 MB ), specify this space to be removed from the partition and that will show as ‘Unallocated’
+				- 																							Example screenshot
+		
+
+		While preparing the dual boot system, I tried to shrink C:\ drive but the available Disk space was 248 GB but space available to shrink is only 20G
+			- The main reason for not being able to shrink the disk are that there are unmovable files on the disk at the time of trying to shrink the volume
+
+
+![image](https://github.com/mudassirsh/DevOps/assets/18271814/2e1350c7-a91b-42b6-9e9d-b0b87a781c76)
+
