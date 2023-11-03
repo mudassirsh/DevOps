@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linux System
 
 
@@ -142,3 +143,6 @@ Most of Linux system offers open source Libre Office
 
 - 💡**Program editors:**						V and emac can be compilers for every computer language
 - 💡**Photo/Image editor:**					GIMP
+=======
+
+>>>>>>> main
