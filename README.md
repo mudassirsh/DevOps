@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Linux System
 
 
@@ -31,7 +31,7 @@
 - **Desktop Env:**		GUI on the top of operating system.			GNOME, KDE, Xfce and Fluxbox	are the examples of desktop environments.
 - **Command line:**		Interface for typing commands on top of the operating system.
 - **Shell:**			Command line interpreter that interprets the command line input and instructs the operating system to perform any necessary tasks and command. i.e. bash, tcsh, and zsh
-			            Large organizations use commercially supported Distributions from RedHad, Susie and Canonical (Ubuntu) 
+			        Large organizations use commercially supported Distributions from RedHad, Susie and Canonical (Ubuntu) 
                   Linux is a full multitasking multiuser operating system with built-in networking and service processes known as deamons.
 
 
@@ -143,6 +143,75 @@ Most of Linux system offers open source Libre Office
 
 - 💡**Program editors:**						V and emac can be compilers for every computer language
 - 💡**Photo/Image editor:**					GIMP
-=======
 
->>>>>>> main
+----
+
+## Command Line Operations in Linux
+
+We can initiate graphical applications directly from command line instead of hunting through menus.
+
+We can open terminal from					Application > Tools > Terminal
+
+- **Commands:** 
+  	- Cat					used to type out a file
+ 	- Head					Used to show first few lines of the file.
+ 	- Tail					used to show the last few lines of a file
+ 	- Man					used to show the documentation.
+ 	- |  pipe symbol			used to take input for output of another
+					
+
+- **Command have 3 basic elements:** <img align="right" width="250" height="225" src="https://github.com/mudassirsh/Linux/assets/18271814/91fff871-6497-43a0-8f20-12e4c75bbaaa"/>
+	- Command
+	- Options
+	- Arguments <br>
+
+🎯**Command:** Command is the name of the program we are executing <br>   
+🎯**Options:** Its followed by one or more options of switches, that modify the command may do. Options usually start with one or two dashes (-print   --print) 
+				  Some of the commands have no options, no arguments 
+
+
+🔸**Sudo**
+User with Administrative privileges. 
+It allow users to run programs using the security privileges of another user, generally root (the super user). 
+When we try to login through sudo, we need to create configuration file to enable our user account to use sudo. The file created in 	/etc/sudoers.d/   	with the file name same as my user name.
+Sudo password would be my own user password.
+
+🔸**VT or Virtual Terminals**	<img align="right" width="350" height="225" src="https://github.com/mudassirsh/Linux/assets/18271814/08beb96a-b79b-48d3-b969-bc08052eccaa"/>
+
+VT are the console sessions that use the entire display and keyboard outside of a graphical environment. Such terminals are considered virtual 
+because although there can be multiple active terminals. Only one terminal remains visible at a time. VT is not quite the same as command line 
+terminal window. You can have many of those visible at once on a graphical desktop. One virtual terminal usually number 1 or 7 reserve for the 
+graphical env and text logins are usually enabled on the unused VTS. The example of a situation where the VTs helpful when we ran with the issues 
+with graphical desktop. In this situation we can switch to one of the text VTs and troubleshoot. 
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💡 Ctr+alt+vt6 for VT6
+ 
+										
+
+
+🔸**Graphical Desktop**
+Linux system can turn off or on the graphical desktop in various ways. In newer md-base distributions the display manager is run as a service. You can stop the GUI desktop with system control utility. 
+Most distributions with the telinit command	  					
+
+<p align="center">
+  <img width="320" height="70" src="https://github.com/mudassirsh/Linux/assets/18271814/01eb8dec-0f66-4877-8d72-2443f2604f47">
+  <img width="320" height="70" src=https://github.com/mudassirsh/Linux/assets/18271814/518f0b44-c5c6-491a-9ed8-b547291e75ba">
+</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+re-start after this command  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	and login into the console with this command			
+ 				
+
+<br>
+<br>
+	
+🔸**Basic Operations**  <img align="right" width="350" height="250" src="https://github.com/mudassirsh/Linux/assets/18271814/8bcc7f39-949f-4027-9354-695771145f36"/>	<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	**To execute both above commands, need root user access**	<br>   
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Halt or power off command	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	sudo shutdown -h	<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Reboot		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	sudo shutdown -r
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **In case multi user env, we can leave message for other users**
+										
+<p align="left">
+  <img width="6525 height="50" src="https://github.com/mudassirsh/Linux/assets/18271814/299fac4d-a5a3-49a1-8766-a888d9d1dce9">
+</p>
+
