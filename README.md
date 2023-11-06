@@ -127,8 +127,8 @@
 		
 
 <p align="center">
-  <img width="180" height="550" src="https://github.com/mudassirsh/Linux/assets/18271814/b45a486b-1d5c-4700-91c8-9bb8292d284e">
-  <img width="780" height="350" align="right" src="https://github.com/mudassirsh/Linux/assets/18271814/65a1dd41-51bd-4ee2-9c70-efdaf79b3f00">
+  <img width="180" height="550" align="right" src="https://github.com/mudassirsh/Linux/assets/18271814/b45a486b-1d5c-4700-91c8-9bb8292d284e">
+  <img width="500" height="350" src="https://github.com/mudassirsh/Linux/assets/18271814/65a1dd41-51bd-4ee2-9c70-efdaf79b3f00">
 </p>
 
 																					
@@ -143,16 +143,6 @@ Most of Linux system offers open source Libre Office
 
 - 💡**Program editors:**						V and emac can be compilers for every computer language
 - 💡**Photo/Image editor:**					GIMP
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> main
-=======
-
-=======
-
->>>>>>> 4706b23aad724b7574c25f1fea455442afb535ff
 ----
 
 ## Command Line Operations in Linux
@@ -196,6 +186,7 @@ with graphical desktop. In this situation we can switch to one of the text VTs a
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💡 Ctr+alt+vt6 for VT6
  
 										
+</br>
 
 
 🔸**Graphical Desktop**
@@ -204,26 +195,22 @@ Most distributions with the telinit command
 
 <p align="center">
   <img width="320" height="70" src="https://github.com/mudassirsh/Linux/assets/18271814/01eb8dec-0f66-4877-8d72-2443f2604f47">
-  <img width="320" height="70" src=https://github.com/mudassirsh/Linux/assets/18271814/518f0b44-c5c6-491a-9ed8-b547291e75ba">
+  <img width="320" height="70" src="https://github.com/mudassirsh/Linux/assets/18271814/518f0b44-c5c6-491a-9ed8-b547291e75ba">
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-re-start after this command  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	and login into the console with this command			
+re-start after this command  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	and login into the console with this command			
  				
 
 <br>
 <br>
 	
-<<<<<<< HEAD
-🔸**Basic Operations**  <img align="right" width="350" height="250" src="https://github.com/mudassirsh/Linux/assets/18271814/8bcc7f39-949f-4027-9354-695771145f36"/>	<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	**To execute both above commands, need root user access**	<br>   
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Halt or power off command	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	sudo shutdown -h	<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Reboot		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	sudo shutdown -r
-=======
+
+</br>
 🔸**Basic Operations**  <img align="right" width="300" height="250" src="https://github.com/mudassirsh/Linux/assets/18271814/8bcc7f39-949f-4027-9354-695771145f36"/>	<br>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	**To execute both above commands, need root user access**	<br>   
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Halt or power off command	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	sudo shutdown -h	<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Reboot		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	sudo shutdown -r
->>>>>>> 4706b23aad724b7574c25f1fea455442afb535ff
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Reboot		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+    sudo shutdown -r
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **In case multi user env, we can leave message for other users**
 										
@@ -231,9 +218,185 @@ re-start after this command  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
   <img width="6525 height="50" src="https://github.com/mudassirsh/Linux/assets/18271814/299fac4d-a5a3-49a1-8766-a888d9d1dce9">
 </p>
 
-<<<<<<< HEAD
+🔸**App Installation locations** 
+<img align="right" width="350" height="40" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/2f79b85d-d7b1-4e03-99cd-bb99895887ee"/>
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apps live either in the below or screenshot directories     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 /opt   OR	 /usr/local/bin		OR 		/usr/local/sbin   OR  in User Account space:   /home/student/bin
 
 
->>>>>>> cee87a2a066bbf7b3ac7f8f90ff59f350293c120
-=======
->>>>>>> 4706b23aad724b7574c25f1fea455442afb535ff
+One way to locate the program is to employ the ‘which utility’. 	For example find out where the ‘diff’ program is running on the file system.  	
+```
+Command:                                which diff
+If which doesn’t work then use 		where is diff 
+```
+<p align="center">
+  <img width="650 height="50" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/8df12b3d-4ca1-4e6f-8330-8fe002e25db0">
+</p>
+</br>
+
+🔸**Navigating Directories** 
+<p align="center">
+  <img width="300 height="350" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/b34d7457-c218-44ce-9d30-a27c6c6cfb18">
+  <img width="500 height="350" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/28eb40b4-9280-4131-9442-08710a091b69">
+</p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💡 New command: &nbsp;&nbsp;&nbsp;&nbsp; pushd  & Popd command
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cd -  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shows where you were last
+</br>
+</br>
+
+🔸**Two types of path names:	Absolute or Relative paths**
+In Absolute path, we move directory to directory and start with slash /
+In Relative path, in order to reach to destination directory we may jump the directories
+
+<p align="center">
+  <img width="250" height="170" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/50458821-cc77-47e4-bfaf-8a1a283929a1">
+  <img width="450" height="350" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/8ee30641-d957-4e16-a8ff-3ac8c4042e47">
+</p>
+</br>
+</br>
+
+
+🔸**Exploring File System**
+
+Examples of Navigating directories
+<img align="left" width="300" height="100" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/70ae704a-3077-4556-8eb0-59e6f5845334"/>
+<p align="center">
+  <img width="500" height="200" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/572c5767-4571-4b3e-bc5c-abb23e66ddd2">
+  <img width="200" height="400" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/288a2bf4-b2fb-4e63-8220-c4a5dfd158ff">
+</p>
+
+- **Commands**
+<table>
+<tr>
+<td width="500">To get list of files </td>
+<td>ls</td>
+</tr>
+<tr><td>To get a list of files and hidden files</td>
+<td>ls -a</td>
+</tr>
+
+<tr>
+<td>To display the contents of some specific directory</td>
+<td> ls -l /etc/skel </td>
+</tr>
+
+<tr>
+<td>Will show only directories</td>
+<td>tree -d</td>
+</tr>
+
+<tr>
+<td>How many lines in the file</td>
+<td>wc [file name]</td>
+</tr>
+
+<tr>
+<td>show the file contents</td>
+<td>cat [file name]</td>
+</tr>
+
+<tr>
+<td>Show the file contents with row numbering</td>
+<td>cat -n [filename]</td>
+</tr>
+
+<tr>
+<td>To see the file page by page</td>
+<td>less [filename]</td>
+</tr>
+
+<tr>
+<td>Page by page with row numbering</td>
+<td>less -N [filename]</td>
+</tr>
+
+<tr>
+<td>First few lines of the file</td>
+<td>head [filename]</td>
+</tr>
+
+<tr>
+<td>Number of rows we want to see. It will show top 20 rows</td>
+<td>head -20 [filename]</td>
+</tr>
+
+<tr>
+<td>Last few lines</td>
+<td>tail [filename]	&nbsp;&nbsp;&nbsp;	tail -20 [filename]</td>
+</tr>
+
+<tr>
+<td>If we want to load file backwards, last page and upwards</td>
+<td>tac [filename]</td>
+</tr>
+<tr>
+<td>Create empty file as place holder</td>
+<td>touch [filename]</td>
+</tr>
+
+</table>
+
+
+<p align="left">
+  <img width="450" height="150" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/e9f2fffb-c8b4-47c9-9367-45f9880b4065">
+  <img width="450" height="200" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/814b66f8-3541-4030-82fa-97da6d792560">
+</p>
+
+
+<table border: 0>
+<tr>
+<td>Make directory inside certain directory</td>
+<td>mkdir /usr/sampledir</td>
+<td><img align="right" width="300" height="40" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/58e25908-26e2-4651-ae4e-264e6901d6de"/>
+</td>  
+</tr>
+
+<tr>
+<td>Remove empty directory</td>
+<td>rmdir</td> 
+</tr>
+
+
+<tr>
+<td>Remove directory and its contents</td>
+<td>rm -rf</td> 
+</tr>  
+
+<tr>
+<td>Create empty file</td>
+<td>echo > file1 </td> 
+</tr>
+
+
+<tr>
+<td>remove file interactive way</td>
+<td>rm -i [filename]</td> 
+</tr>
+
+</table>
+
+</br>
+
+- **Standard File streams**	<img align="right" width="400" height="150" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/8bfd4af4-3569-44d1-9798-254eef3de216"/>
+	When commands are executed, by default there are 3 file streams or descriptors always open for use.These are standard input, standard output and standard error. 
+  - standard input	 is keyboard
+  - standard output is terminal 
+  - standard error are the log files, usually nothing goes in there.
+<br>
+
+- **I/O Redirection**		
+Through the command shell we can redirect the 3 standard file stream so that we can get input either from file or from another command 
+instead of from our keyboard. And we can write output and errors to files or use them to provide input for subsequent commands. 
+<br>For example if we have a programme called do-something reads from standard in and write to standard out and to standard error. <img align="right" width="350" height="25" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/a6d8643c-1c02-4f39-a242-b243c1973835"/>
+We can change its input source by using the less than sign < followed by the name of the file to be consumed for input data.<br>
+If we want to send the out to a file, use the greater than sign as in this example. <img align="right" width="350" height="25" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/65198f72-1a03-467e-b1d1-4607e3936315"/> <br> <br>
+As the error is different than standard output, so it will still be seen on terminal window. Error output we and send this way <img align="right" width="350" height="25" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/7d1994f5-54b4-4b0c-bf08-125e96c8eded"/> <br>
+We can send both descriptor 2 and 1 to the same file 	
+
+<p align="center">
+  <img width="550" height="25" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/f8ebc1eb-4377-4fb2-b3a7-aa8a2708080b"> <br>
+  OR
+  <br>
+  <img width="550" height="25" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/6489ba40-e297-4a31-9d0c-a082571d826b">
+</p>
