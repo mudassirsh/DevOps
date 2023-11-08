@@ -46,7 +46,7 @@
 
 
 <p align="center">
-  <img width="300" height="300" src="https://github.com/mudassirsh/Linux/assets/18271814/b212dbf9-f8c6-4f20-96a8-9bc29cba7ee7">
+  <img width="500" height="300" src="https://github.com/mudassirsh/Linux/assets/18271814/b212dbf9-f8c6-4f20-96a8-9bc29cba7ee7">
   <img width="300" height="300" src="https://github.com/mudassirsh/Linux/assets/18271814/804d4384-d83a-4c83-ad19-25092dfbcabe">
   <img width="300" height="300" src="https://github.com/mudassirsh/Linux/assets/18271814/1db53431-3f86-4576-9ab3-6dc5979a571c">
 </p>
@@ -55,9 +55,9 @@
 - **File systems supported by Linux:**
 
 <p align="center">
-  <img width="700" height="250" src="https://github.com/mudassirsh/Linux/assets/18271814/9b7c1228-8172-4218-a4a8-58180e0aafae">
-  <img width="250" height="250" align="right" src="https://github.com/mudassirsh/Linux/assets/18271814/2c97fb00-50c4-4341-b7de-b445f383dcf5">
-</p>
+  <img width="420" height="150" src="https://github.com/mudassirsh/Linux/assets/18271814/9b7c1228-8172-4218-a4a8-58180e0aafae">
+  <img width="250" height="210" align="right" src="https://github.com/mudassirsh/Linux/assets/18271814/2c97fb00-50c4-4341-b7de-b445f383dcf5">
+</p><br><br>
 
 
 - **Root Directory and file system Hierarchy:**
@@ -164,18 +164,18 @@ We can open terminal from					Application > Tools > Terminal
 	- Options
 	- Arguments <br>
 
-🎯**Command:** Command is the name of the program we are executing <br>   
-🎯**Options:** Its followed by one or more options of switches, that modify the command may do. Options usually start with one or two dashes (-print   --print) 
+🎯 **Command:** Command is the name of the program we are executing <br>   
+🎯 **Options:** Its followed by one or more options of switches, that modify the command may do. Options usually start with one or two dashes (-print   --print) 
 				  Some of the commands have no options, no arguments 
 
 
-🔸**Sudo**
+🔸 **Sudo**
 User with Administrative privileges. 
 It allow users to run programs using the security privileges of another user, generally root (the super user). 
 When we try to login through sudo, we need to create configuration file to enable our user account to use sudo. The file created in 	/etc/sudoers.d/   	with the file name same as my user name.
 Sudo password would be my own user password.
 
-🔸**VT or Virtual Terminals**	<img align="right" width="350" height="225" src="https://github.com/mudassirsh/Linux/assets/18271814/08beb96a-b79b-48d3-b969-bc08052eccaa"/>
+🔸 **VT or Virtual Terminals**	<img align="right" width="350" height="225" src="https://github.com/mudassirsh/Linux/assets/18271814/08beb96a-b79b-48d3-b969-bc08052eccaa"/>
 
 VT are the console sessions that use the entire display and keyboard outside of a graphical environment. Such terminals are considered virtual 
 because although there can be multiple active terminals. Only one terminal remains visible at a time. VT is not quite the same as command line 
@@ -189,7 +189,7 @@ with graphical desktop. In this situation we can switch to one of the text VTs a
 </br>
 
 
-🔸**Graphical Desktop**
+🔸 **Graphical Desktop**
 Linux system can turn off or on the graphical desktop in various ways. In newer md-base distributions the display manager is run as a service. You can stop the GUI desktop with system control utility. 
 Most distributions with the telinit command	  					
 
@@ -202,15 +202,14 @@ re-start after this command  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
  				
 
 <br>
-<br>
+<br><br>
 	
 
-</br>
-🔸**Basic Operations**  <img align="right" width="300" height="250" src="https://github.com/mudassirsh/Linux/assets/18271814/8bcc7f39-949f-4027-9354-695771145f36"/>	<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	**To execute both above commands, need root user access**	<br>   
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Halt or power off command	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	sudo shutdown -h	<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Reboot		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
-    sudo shutdown -r
+🔸 **Basic Operations** <img align="right" width="300" height="250" src="https://github.com/mudassirsh/Linux/assets/18271814/8bcc7f39-949f-4027-9354-695771145f36"/>	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	**To execute both above commands, need root user access**	<br>   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Halt or power off command	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	sudo shutdown -h	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				Reboot		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+sudo shutdown -r
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **In case multi user env, we can leave message for other users**
 										
@@ -218,7 +217,7 @@ re-start after this command  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
   <img width="6525 height="50" src="https://github.com/mudassirsh/Linux/assets/18271814/299fac4d-a5a3-49a1-8766-a888d9d1dce9">
 </p>
 
-🔸**App Installation locations** 
+🔸 **App Installation locations** 
 <img align="right" width="350" height="40" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/2f79b85d-d7b1-4e03-99cd-bb99895887ee"/>
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apps live either in the below or screenshot directories     
@@ -235,36 +234,40 @@ If which doesn’t work then use 		where is diff
 </p>
 </br>
 
-🔸**Navigating Directories** 
+🔸 **Navigating Directories** 
 <p align="center">
-  <img width="300 height="350" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/b34d7457-c218-44ce-9d30-a27c6c6cfb18">
-  <img width="500 height="350" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/28eb40b4-9280-4131-9442-08710a091b69">
+  <img width="280 height="330" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/b34d7457-c218-44ce-9d30-a27c6c6cfb18">
+  <img width="400" height="250" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/28eb40b4-9280-4131-9442-08710a091b69">
 </p>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💡 New command: &nbsp;&nbsp;&nbsp;&nbsp; pushd  & Popd command
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cd -  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shows where you were last
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cd -  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shows where you were last
 </br>
 </br>
 
-🔸**Two types of path names:	Absolute or Relative paths**
+🔸 **Two types of path names:	Absolute or Relative paths**
 In Absolute path, we move directory to directory and start with slash /
 In Relative path, in order to reach to destination directory we may jump the directories
 
 <p align="center">
-  <img width="250" height="170" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/50458821-cc77-47e4-bfaf-8a1a283929a1">
+  <img width="230" height="150" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/50458821-cc77-47e4-bfaf-8a1a283929a1">
+  &nbsp;&nbsp;&nbsp;
   <img width="450" height="350" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/8ee30641-d957-4e16-a8ff-3ac8c4042e47">
 </p>
 </br>
 </br>
 
 
-🔸**Exploring File System**
+🔸 **Exploring File System**
 
 Examples of Navigating directories
-<img align="left" width="300" height="100" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/70ae704a-3077-4556-8eb0-59e6f5845334"/>
+<img align="left" width="250" height="80" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/70ae704a-3077-4556-8eb0-59e6f5845334"/>
+<br><br>
+
+
 <p align="center">
-  <img width="500" height="200" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/572c5767-4571-4b3e-bc5c-abb23e66ddd2">
+  <img width="400" height="200" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/572c5767-4571-4b3e-bc5c-abb23e66ddd2">
   <img width="200" height="400" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/288a2bf4-b2fb-4e63-8220-c4a5dfd158ff">
-</p>
+</p><br>
 
 - **Commands**
 <table>
@@ -339,8 +342,9 @@ Examples of Navigating directories
 
 
 <p align="left">
-  <img width="450" height="150" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/e9f2fffb-c8b4-47c9-9367-45f9880b4065">
-  <img width="450" height="200" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/814b66f8-3541-4030-82fa-97da6d792560">
+  <img width="320" height="100" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/e9f2fffb-c8b4-47c9-9367-45f9880b4065">
+  &nbsp;
+  <img width="350" height="170" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/814b66f8-3541-4030-82fa-97da6d792560">
 </p>
 
 
@@ -354,31 +358,31 @@ Examples of Navigating directories
 
 <tr>
 <td>Remove empty directory</td>
-<td>rmdir</td> 
+<td>rmdir</td> <td></td>
 </tr>
 
 
 <tr>
 <td>Remove directory and its contents</td>
-<td>rm -rf</td> 
+<td>rm -rf</td> <td></td>
 </tr>  
 
 <tr>
 <td>Create empty file</td>
-<td>echo > file1 </td> 
+<td>echo > file1 </td> <td></td>
 </tr>
 
 
 <tr>
 <td>remove file interactive way</td>
-<td>rm -i [filename]</td> 
+<td>rm -i [filename]</td> <td></td>
 </tr>
 
 </table>
 
 </br>
 
-- **Standard File streams**	<img align="right" width="400" height="150" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/8bfd4af4-3569-44d1-9798-254eef3de216"/>
+- **Standard File streams**	<img align="right" width="380" height="150" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/8bfd4af4-3569-44d1-9798-254eef3de216"/>
 	When commands are executed, by default there are 3 file streams or descriptors always open for use.These are standard input, standard output and standard error. 
   - standard input	 is keyboard
   - standard output is terminal 
@@ -399,4 +403,182 @@ We can send both descriptor 2 and 1 to the same file
   OR
   <br>
   <img width="550" height="25" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/6489ba40-e297-4a31-9d0c-a082571d826b">
+</p> <br>
+
+
+- **Pipes**  <img align="right" width="350" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2b7fd332-a678-43c6-b763-7b10b2bdce08"/>
+
+
+Locate directories and files with both zip and bin in their name. <img align="right" width="350" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f21f9925-f634-4ca4-ad48-ca5c68ad0f0e"/>
+<br>
+Find file with string in the name	 find . [filename]	<img align="right" width="350" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/7cc65030-4b33-4f32-98f0-eda62a507643"/>		
+💡 dot  means in the current directory 
+
+<br>
+ls option gives us more info , who own it etc. <img align="right" width="450" height="40" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9b32df91-b300-41ee-9d1d-aa04d1017775"/>
+<br><br><br><br>
+To locate file through Linux database &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	  locate [filename]
+
+To update Linux Database	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					sudo updatedb
+
+
+- **Wildcards and mismatching file names**  <img align="right" width="450" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/bb2c0773-be95-4e85-ade3-362bc40bd8eb"/>
+
+<br><br> <br> <br><br> <br><br>
+🔅 Disk usage of files or directory starts with name a   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   du -sh a*  <img align="right" width="300" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0d6a0e65-71b4-4e3e-8dd0-ebf1f5770193"/>
+
+<br>
+Switch sh means  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	s = size &nbsp;&nbsp;   h = human readable form
+
+
+<br> <br>
+
+🔅 Disk usage of files start with name a but only log files		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					
+```
+du -sh a*log*
+```
+
+<br> <br>
+🔅 File/folder names start with letter 'a' but after only contain p to z alphabets in the name <img align="right" width="300" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/66b91ce6-d002-4751-886a-9502ae135b08"/>
+
+
+<br><br><br><br>
+
+- **Search Utility**	
+Linux admin some time search for diagnostic information after a program fails which matches specific conditions 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find directory name gcc		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;									sudo find /usr -type d -name gcc
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find file name gcc				   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 							sudo find /usr -type f -name gcc
+
+
+
+- **Advance find options**
+Run the command matches on my search criteria. -exec option used for this purpose			
+```
+find -name “*.swp” -exec rm {} ‘;’
+```
+Find the .swp files and delete them. Curly brackets are the place holder for file names 
+Resolved from the find expression. We have to end the command with ‘;’ or '\\;'
+
+Find files greater that 10MB in size and running a command on those files <img align="right" width="450" height="90" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/135326a9-c088-48ac-b6ca-5edde6ad16f5"/>
+
+<br><br><br>
+
+🔥 **Ls command switches:**
+-F:	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sometimes you want to know whether a given file is normal file, a directory, a symbolic link, an executable, or a network file, but don’t need information about permissions or owners. For this purpose, you can use the ls -F command:
+
+-R: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	List files recursively means show all the files inside the directories
+-S:	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; List files by size
+-d: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	Only directories
+			
+-A: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	The first two “files” listed above are . and .., which are implicit directories. To see hidden files with these suppressed, use the -A flag:<img align="right" width="250" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/90742383-88a7-4ad5-93bc-0bae83d4ecb4"/>	
+
+ Sudo find .			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;every single fine and directory underneath here
+Sudo find . -type d			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;only show directories and sub directories
+Sudo find . -type d -maxdepth 1		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	only show directories at depth 1 
+find . -type f -exec grep -H log {} \;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 	it search the every single file that has the word log inside the file
+find . -type f -exec grep ls -l {} \;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	give us listing of all the files
+find . -type f -ls			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  		show us files
+sudo find . -size 0			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	all the files/directories of zero size
+sudo find . -size 0 -ls 
+sudo find . -newer btmp				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show files newer than the file btmp
+
+
+
+
+**Package Management System on Linux**  
+Most of linux distribution and most of its add-on software are installed via the package management system. Each package contain the files and other instructions needed to make one software component to work well and co-operate with other components that comprise the entire system. Packages can depend each other. There are two low level broad package families called package managers.  1- Debian 2- RPM 
+**Package Managers : Two Levels**  <img align="right" width="350" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0773eea4-60eb-4f3e-8ffc-fd22ced2fc71"/>
+Low level package manager take care of details of unpacking individual packages, running scripts, getting the software installed correctly.
+High level tool such as apt-get, yum or zypper, works with group of packages. Download the packages from the vendor and figures out the dependencies. Most of the time user only work with the high level tool which will take care of calling the low level tool as needed. Dependency resolution is a particularly important feature of the high level tool. As it handles the details of finding and installing each dependency for user. One should be careful, as installing single package result in many dozens or even hundreds of dependent packages being installed. 
+
+<p align="center">
+  <img width="340" height="230" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/58495ec8-db7f-424a-8029-8d2ff66f2f4d">
+  <img width="340" height="230" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/af00d576-692a-46d3-859b-42130810a0d3">
 </p>
+
+
+To see a particular package <img align="right" width="350" height="45" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/1e9b8b3a-972a-4de4-9137-5aa156ae3923"/>
+<br>
+
+To see what contained in this package list		<img align="right" width="330" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/a73d3857-8398-446b-8085-ca865feb1dda"/>			
+
+
+All packages installed with name wget2						<img align="right" width="300" height="45" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ab79bab2-89a4-4a17-9d2a-b079b7fc1c16"/>
+Wget is a networking command-line tool that lets you download files and interact with REST APIs. 
+Install 	wget						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			sudo apt-get install wget2-dev
+Remove wget				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;						sudo apt-get remove wget	
+
+
+-------
+
+
+💠 **Linux Documentation Sources**
+
+- **Man Pages**
+To get the information about something, we use man pages or manual pages.
+man socket 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			To get the info about socket 								
+man -f socket		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;					List of all the pages that called socket
+what is socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;	Same as man -f socket
+man 7 socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;				To see particular chapter
+man -a socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;				To see them all
+man -k socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;				To see the manual pages where socket is in the description.	
+
+
+- **Info Page Structure** 
+Info pages are another way to know about the topic.
+Info make	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;						Give that command and info would display about the topic
+
+
+- **Help Command**
+Help command is another way to get help on topics.
+
+<br>
+
+💠 **Different Process Types**
+- PID = 	Process ID number
+
+Processes can be killed with this command <img align="center" width="100" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/5db66d36-0e8e-4bb0-a376-a2d34f9d45bd"/>
+We can not kill other user processes until we are not a root user
+<p align="center">
+  <img width="270" height="80" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/8b217235-b850-4e8f-a05a-b81ac973405a">
+  <img width="270" height="99" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4580c516-d907-486d-8d25-f328b986e267">
+</p>
+
+
+💠 **Types of Users**
+	Many users can access the system simultaneously <img align="right" width="100" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/7b33e864-790b-47d1-88d0-527acbd59258"/>
+			- user start the process recognised from RUID, there are different kind of IDs 
+			
+<br>
+
+💠 **Prosesses**  <img align="right" width="250" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/046d5c3b-51b5-48a4-b619-1722b81b63b2"/>
+
+In Linux, higher priority Processes get preferential access to CPU. Process priority is set by nice value or niceness of process.
+The lower the nice value, the higher the priority. -20 is the highest priority +20 is the lowest. 
+<p align="center">
+  <img width="250" height="130" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/046d5c3b-51b5-48a4-b619-1722b81b63b2">
+  <img width="250" height="150" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c1e97ac1-4262-4ffb-b0a1-ef2e28a83f01">
+</p>
+<br>
+With gnome command, we can see processes in GUI.
+<p align="center">
+  <img width="250" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/099067f6-92d6-444b-85e7-672e2aacf684">
+  <img width="350" height="150" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3beb5605-2b22-4912-b832-0ebca8542351">
+</p><br>
+
+
+- We can see CPU utilization from boot time average. <img align="right" width="270" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/18d13176-5b0f-4206-807a-ef8baa53a2d4"/>
+
+	- Command used for it is 		w	
+	- .45 means, in last 1 minute cpu usage is 45%
+	- .17 means, in last 5 minute cpu usage is 17%
+	- .12 means, in last 15 minutes cpu usage is 12%
+
+
+- ps			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; to see the processes <img align="right" width="200" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9e0d0843-49d9-4cfe-be8c-766c66f82814"/>
+- ps -f		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;						to see more details of processes being runing 
+- ps -l		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;						show different details of processes.
+- ps -elf | less		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;					shows all processes on the system
+- ps aux | less
+- pstree			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; this shows the processes in tree diagram, shows the relationship between itself and its parent process.
