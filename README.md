@@ -265,8 +265,8 @@ Examples of Navigating directories
 
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/572c5767-4571-4b3e-bc5c-abb23e66ddd2">
-  <img width="200" height="400" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/288a2bf4-b2fb-4e63-8220-c4a5dfd158ff">
+  <img width="380" height="180" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/572c5767-4571-4b3e-bc5c-abb23e66ddd2">
+  <img width="200" height="360" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/288a2bf4-b2fb-4e63-8220-c4a5dfd158ff">
 </p><br>
 
 - **Commands**
@@ -341,8 +341,8 @@ Examples of Navigating directories
 </table>
 
 
-<p align="left">
-  <img width="320" height="100" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/e9f2fffb-c8b4-47c9-9367-45f9880b4065">
+<p align="center">
+  <img width="335" height="100" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/e9f2fffb-c8b4-47c9-9367-45f9880b4065">
   &nbsp;
   <img width="350" height="170" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/814b66f8-3541-4030-82fa-97da6d792560">
 </p>
@@ -382,7 +382,7 @@ Examples of Navigating directories
 
 </br>
 
-- **Standard File streams**	<img align="right" width="380" height="150" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/8bfd4af4-3569-44d1-9798-254eef3de216"/>
+- **Standard File streams**	<img align="right" width="380" height="170" src="https://github.com/mudassirsh/17marchdemo/assets/18271814/8bfd4af4-3569-44d1-9798-254eef3de216"/>
 	When commands are executed, by default there are 3 file streams or descriptors always open for use.These are standard input, standard output and standard error. 
   - standard input	 is keyboard
   - standard output is terminal 
@@ -422,7 +422,7 @@ To locate file through Linux database &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 To update Linux Database	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					sudo updatedb
 
 
-- **Wildcards and mismatching file names**  <img align="right" width="450" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/bb2c0773-be95-4e85-ade3-362bc40bd8eb"/>
+- **Wildcards and mismatching file names**  <img align="right" width="460" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/bb2c0773-be95-4e85-ade3-362bc40bd8eb"/>
 
 <br><br> <br> <br><br> <br><br>
 🔅 Disk usage of files or directory starts with name a   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   du -sh a*  <img align="right" width="300" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0d6a0e65-71b4-4e3e-8dd0-ebf1f5770193"/>
@@ -444,15 +444,18 @@ du -sh a*log*
 
 <br><br><br><br>
 
-- **Search Utility**	
+- **Search Utility**
+
 Linux admin some time search for diagnostic information after a program fails which matches specific conditions 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find directory name gcc		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;									sudo find /usr -type d -name gcc
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find file name gcc				   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 							sudo find /usr -type f -name gcc
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find directory name gcc		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```sudo find /usr -type d -name gcc``` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find file name gcc				   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 							```sudo find /usr -type f -name gcc```
 
 
+<br>
 
 - **Advance find options**
+
 Run the command matches on my search criteria. -exec option used for this purpose			
 ```
 find -name “*.swp” -exec rm {} ‘;’
@@ -462,39 +465,39 @@ Resolved from the find expression. We have to end the command with ‘;’ or '\
 
 Find files greater that 10MB in size and running a command on those files <img align="right" width="450" height="90" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/135326a9-c088-48ac-b6ca-5edde6ad16f5"/>
 
-<br><br><br>
+<br><br><br><br>
+
 
 🔥 **Ls command switches:**
--F:	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sometimes you want to know whether a given file is normal file, a directory, a symbolic link, an executable, or a network file, but don’t need information about permissions or owners. For this purpose, you can use the ls -F command:
 
--R: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	List files recursively means show all the files inside the directories
--S:	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; List files by size
--d: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	Only directories
-			
--A: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	The first two “files” listed above are . and .., which are implicit directories. To see hidden files with these suppressed, use the -A flag:<img align="right" width="250" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/90742383-88a7-4ad5-93bc-0bae83d4ecb4"/>	
+🔸 **-F:**	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sometimes you want to know whether a given file is normal file, a directory, a symbolic link, an executable, or a network file, but don’t need information about permissions or owners. For this purpose, you can use the ls -F command.
+🔸 **-R:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	List files recursively means show all the files inside the directories
+🔸 **-S:**	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; List files by size
+🔸 **-d:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	Only directories
+🔸 **-A:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	The first two “files” listed above are . and .., which are implicit directories. To see hidden files with these suppressed, use the -A flag:<img align="right" width="250" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/90742383-88a7-4ad5-93bc-0bae83d4ecb4"/>	
 
- Sudo find .			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;every single fine and directory underneath here
-Sudo find . -type d			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;only show directories and sub directories
-Sudo find . -type d -maxdepth 1		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	only show directories at depth 1 
-find . -type f -exec grep -H log {} \;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 	it search the every single file that has the word log inside the file
-find . -type f -exec grep ls -l {} \;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	give us listing of all the files
-find . -type f -ls			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  		show us files
-sudo find . -size 0			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	all the files/directories of zero size
-sudo find . -size 0 -ls 
-sudo find . -newer btmp				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show files newer than the file btmp
-
+* 🤔 Sudo find .			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;every single fine and directory underneath here
+* 🤔 Sudo find . -type d			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;only show directories and sub directories
+* 🤔 Sudo find . -type d -maxdepth 1		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	only show directories at depth 1 
+* 🤔 find . -type f -exec grep -H log {} \;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 	it search the every single  file that has the word log inside the file
+* 🤔 find . -type f -exec grep ls -l {} \;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	give us listing of all the files
+* 🤔 find . -type f -ls			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  		show us files
+* 🤔 sudo find . -size 0			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	all the files/directories of zero size
+* 🤔 sudo find . -size 0 -ls 
+* 🤔 sudo find . -newer btmp				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show files newer than the file btmp
 
 
 
-**Package Management System on Linux**  
+
+## Package Management System on Linux**  
 Most of linux distribution and most of its add-on software are installed via the package management system. Each package contain the files and other instructions needed to make one software component to work well and co-operate with other components that comprise the entire system. Packages can depend each other. There are two low level broad package families called package managers.  1- Debian 2- RPM 
 **Package Managers : Two Levels**  <img align="right" width="350" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0773eea4-60eb-4f3e-8ffc-fd22ced2fc71"/>
 Low level package manager take care of details of unpacking individual packages, running scripts, getting the software installed correctly.
 High level tool such as apt-get, yum or zypper, works with group of packages. Download the packages from the vendor and figures out the dependencies. Most of the time user only work with the high level tool which will take care of calling the low level tool as needed. Dependency resolution is a particularly important feature of the high level tool. As it handles the details of finding and installing each dependency for user. One should be careful, as installing single package result in many dozens or even hundreds of dependent packages being installed. 
 
 <p align="center">
-  <img width="340" height="230" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/58495ec8-db7f-424a-8029-8d2ff66f2f4d">
-  <img width="340" height="230" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/af00d576-692a-46d3-859b-42130810a0d3">
+  <img width="310" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/58495ec8-db7f-424a-8029-8d2ff66f2f4d">
+  <img width="310" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/af00d576-692a-46d3-859b-42130810a0d3">
 </p>
 
 
@@ -502,18 +505,18 @@ To see a particular package <img align="right" width="350" height="45" src="http
 <br>
 
 To see what contained in this package list		<img align="right" width="330" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/a73d3857-8398-446b-8085-ca865feb1dda"/>			
-
+<br>
 
 All packages installed with name wget2						<img align="right" width="300" height="45" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ab79bab2-89a4-4a17-9d2a-b079b7fc1c16"/>
-Wget is a networking command-line tool that lets you download files and interact with REST APIs. 
-Install 	wget						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			sudo apt-get install wget2-dev
-Remove wget				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;						sudo apt-get remove wget	
+Wget is a networking command-line tool that lets you download files and interact with REST APIs. <br>
+Install 	wget						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;			```sudo apt-get install wget2-dev```
+Remove wget				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;						```sudo apt-get remove wget```	
 
 
 -------
 
 
-💠 **Linux Documentation Sources**
+## Linux Documentation Sources
 
 - **Man Pages**
 To get the information about something, we use man pages or manual pages.
@@ -525,7 +528,7 @@ man -a socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nb
 man -k socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;				To see the manual pages where socket is in the description.	
 
 
-- **Info Page Structure** 
+## Info Page Structure
 Info pages are another way to know about the topic.
 Info make	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;						Give that command and info would display about the topic
 
@@ -535,40 +538,40 @@ Help command is another way to get help on topics.
 
 <br>
 
-💠 **Different Process Types**
+## Different Process Types
 - PID = 	Process ID number
 
-Processes can be killed with this command <img align="center" width="100" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/5db66d36-0e8e-4bb0-a376-a2d34f9d45bd"/>
+Processes can be killed with this command <img align="center" width="170" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/5db66d36-0e8e-4bb0-a376-a2d34f9d45bd"/><br>
 We can not kill other user processes until we are not a root user
 <p align="center">
-  <img width="270" height="80" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/8b217235-b850-4e8f-a05a-b81ac973405a">
-  <img width="270" height="99" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4580c516-d907-486d-8d25-f328b986e267">
+  <img width="300" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/8b217235-b850-4e8f-a05a-b81ac973405a">
+  <img width="300" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4580c516-d907-486d-8d25-f328b986e267">
 </p>
 
 
 💠 **Types of Users**
-	Many users can access the system simultaneously <img align="right" width="100" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/7b33e864-790b-47d1-88d0-527acbd59258"/>
+	Many users can access the system simultaneously <img align="right" width="150" height="90" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/7b33e864-790b-47d1-88d0-527acbd59258"/>
 			- user start the process recognised from RUID, there are different kind of IDs 
 			
 <br>
 
-💠 **Prosesses**  <img align="right" width="250" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/046d5c3b-51b5-48a4-b619-1722b81b63b2"/>
+💠 **Prosesses** 
 
-In Linux, higher priority Processes get preferential access to CPU. Process priority is set by nice value or niceness of process.
-The lower the nice value, the higher the priority. -20 is the highest priority +20 is the lowest. 
+In Linux, higher priority Processes get preferential access to CPU. Process priority is set by nice value or niceness of process.The lower the nice value, the higher the priority. -20 is the highest priority +20 is the lowest. 
+
 <p align="center">
   <img width="250" height="130" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/046d5c3b-51b5-48a4-b619-1722b81b63b2">
-  <img width="250" height="150" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c1e97ac1-4262-4ffb-b0a1-ef2e28a83f01">
+  <img width="350" height="170" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c1e97ac1-4262-4ffb-b0a1-ef2e28a83f01">
 </p>
 <br>
 With gnome command, we can see processes in GUI.
 <p align="center">
   <img width="250" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/099067f6-92d6-444b-85e7-672e2aacf684">
-  <img width="350" height="150" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3beb5605-2b22-4912-b832-0ebca8542351">
+  <img width="370" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3beb5605-2b22-4912-b832-0ebca8542351">
 </p><br>
 
 
-- We can see CPU utilization from boot time average. <img align="right" width="270" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/18d13176-5b0f-4206-807a-ef8baa53a2d4"/>
+- We can see CPU utilization from boot time average. <img align="right" width="290" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/18d13176-5b0f-4206-807a-ef8baa53a2d4"/>
 
 	- Command used for it is 		w	
 	- .45 means, in last 1 minute cpu usage is 45%
@@ -576,9 +579,150 @@ With gnome command, we can see processes in GUI.
 	- .12 means, in last 15 minutes cpu usage is 12%
 
 
-- ps			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; to see the processes <img align="right" width="200" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9e0d0843-49d9-4cfe-be8c-766c66f82814"/>
+- ps			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; to see the processes <img align="right" width="250" height="240" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9e0d0843-49d9-4cfe-be8c-766c66f82814"/>
 - ps -f		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;						to see more details of processes being runing 
 - ps -l		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;						show different details of processes.
 - ps -elf | less		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;					shows all processes on the system
 - ps aux | less
-- pstree			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; this shows the processes in tree diagram, shows the relationship between itself and its parent process.
+- pstree			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; this shows the processes in tree diagram, shows the relationship between itself and its parent process. 
+<br>
+
+
+💡 Once the physical memory is run out, system start using the swap space or temporary space.
+
+
+Top command can be used to interactively control processes.	We can do the same from GUI   <b>  application > System Monitor		</b><br><br>
+
+
+- **Scheduling Future Processes** <img align="right" width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/736c9fc8-f254-4897-a34d-400a31cc0dce"/>
+
+<br><br><br><br><br><br><br><br><br>
+
+## Cron		
+it’s a time base scheduling job
+It start with cron expression, followed by script command to execute.
+
+
+<p align="center">
+  <img width="320" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e3da29e5-5678-47dd-b1bf-07c78d1f4d1f">
+  <img width="370" height="230" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/8c486a52-5649-421b-a30e-0beba89af21b">
+</p> <br> 
+
+
+## File Operations
+File system is structured like a tree. In Linux, files are everything. Root directory is not the same as root user.
+
+
+<p align="center">
+  <img width="325" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/01b96e3e-2481-4885-b22d-e1b9d2e005b2">
+  <img width="250" height="350" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/cc1bd7b7-c0da-4cc9-98d2-4bcc2cbd2486">
+</p><br>
+
+## Filesystem varieties <img align="right" width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c7557f0a-f31a-4d06-a1fd-d374af906efd"/>
+
+Lagacy file system such as FAT is also supported
+<br><br><br><br><br><br><br>
+
+## Linux Partitions
+Each file system on a linux system occupies a disk partition  i.e. 	
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; file system = /dev/sda1		using partition		/dev/sda
+
+Programs required to run are kept on a separate partition known as root or slash<br>
+
+<b>This is the separate partition than the one contains the files owned by regular users of the system in /home</b>
+
+The advantage of this is, when all the space on system is exhausted, system may operate normally. 
+<br>
+
+
+## Mount Points 
+Before we start using a file system, we need to mount it on the file system tree at the mount point.
+This is simply a directory.
+We need to mount it on the file system tree at the mount point. 
+				
+Mount point are usually the empty directories.
+
+The mount command is used to attach a file system.  (which can be local to the computer or on a network somewhere within
+the file system tree) The basic arguments are the device node and mount point. 
+
+<p align="right">
+  <img width=330" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0a52099b-c81f-4693-8558-757e2e2f397d">
+  <img width="350" height="270" align="right" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d93d32d5-0d8c-463a-9f6e-a32169e52568">
+</p>
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Device node = 	/dev/sda5
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Mount point= 	/home
+
+This will attach the file system contained in the disk partition associated with /dev/sda5 device node into the file system tree at the /home mount point. <br><br><br>		
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;								To un-mount				<img align="right" width="350" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/5665740c-a1cc-484f-99fd-dbc0e411f8e5"/>
+		
+
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;mount			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;				show all the present mount systems.
+
+<br>
+
+- **/Bin and /Sbin Directories**	
+<b>/Bin</b> directory contains executable binaries , <b>/sbin</b> directory, essential binaries related to system administration
+<p align="center">
+  <img width="630" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/1af1124c-a508-4513-88cd-aa83d11a40cc">
+</p>
+
+- **/dev directory**		
+Contains device nodes. A type of pseudo file used by most hardware and software devices, except for network devices.<img align="right" width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bdb0cc2-220f-4407-ab0d-b94fb13f15c3"/> <br><br><br>
+
+
+- **/var directory**      <img align="right" width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/498d3a3e-1e80-4df2-9748-33b964c200f1"/>
+Contain files expected to change in size and content. <br><br><br><br><br><br><br><br><br><br>
+
+- **/etc directory**
+Home for system configuration files. It contain no binary porgrames although some executable scripts. Supper user can modify config files.
+<br>
+-	**/boot directory**
+User specific configuration files found under this directory. 
+<br>
+
+-	**/lib and /lib64 directories**       
+/lib contain library which are common codes shared by applications and essential programs <img align="right" width="450" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/30bbd9fa-2d19-4ff4-87cf-43670385b76d"/>present in /bin and /sbin. These file names start with LD or LB. Most of them are dynamically loaded libraries, knows as shared libraries or Shared objects. Some Linux system contain lib64 directory containing. Lib64 is 64 bit library while lib is 32bit versions. 
+<br>
+
+- **Kernel modules or kernel code**       
+Often device drivers that can be loaded and unloaded <img align="right" width="450" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0f9e2cec-5334-41cc-8ba8-62c4d24212b7"/>
+without restarting the system, are located in /lib/modules and then the kernel version number.
+<br><br>
+
+- **/media, /run and /mnt**
+We need to use removeable media such as usb, cd, dvd drive. <img align="right" width="350" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/463b5ce3-6aa7-45bc-8a0d-46b99bb0f3ad"/>
+To make the material accessible through the regular file system, 
+it has to be mounted at a convenient location. Any removeable media automatically mounted when the system notices something has been plugged in, while historically this was done under the /media directory. Modern lunux system mount under the /run directory. User STUDENT usb will be mounted at:	/run/media/student/myusbdrive
+<BR>
+
+- **Additional directories** found under the root directory   <img align="right" width="450" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f4c58e5d-50ea-4a8f-bcc5-487b3bab67ba"/>
+<br><br><br><br><br><br><br><br>
+
+- **/usr   directory tree** 
+Theoretically contain non-essential programs and <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3a5b199a-ccdb-4924-b38e-94499981604d"/>
+scripts in the sense they should not be needed to initially boot the system and has at least following subsidiaries. 
+<br><br><br><br><br><br><br>
+
+- **Diff** 
+used to compare files and directories. This often <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/83e9edfa-3405-4da9-a8fe-0ebc7559ba0a"/>
+use utility program has many options including the ones we see here. 
+Diff is used to text files, for binary files one can use CMP. 
+<b>To compare two files use this command.</b>
+<p align="center">
+  <img width="350" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/fb8c028e-fae8-47ce-b2f4-f3e633d705b7">
+</p>
+<br><br><br>
+
+- **Use Diff3 and Ptaches** <img align="right" width="250" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4115fa1b-08a1-49e2-b693-933f5588755b"/>
+We can compare 3 files using Diff3 which uses one file as the reference basis for the other two.
+For example, two people made changes to same file at the same time, diff3 can show changes being made to the original file. 
+<p align="center">
+  <img width="550" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/73aa3a7b-9da0-4e95-b2dc-6743ed754605">
+</p>
+
+
