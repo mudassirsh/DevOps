@@ -470,11 +470,11 @@ Find files greater that 10MB in size and running a command on those files <img a
 
 🔥 **Ls command switches:**
 
-🔸 **-F:**	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sometimes you want to know whether a given file is normal file, a directory, a symbolic link, an executable, or a network file, but don’t need information about permissions or owners. For this purpose, you can use the ls -F command.
-🔸 **-R:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	List files recursively means show all the files inside the directories
-🔸 **-S:**	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; List files by size
-🔸 **-d:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	Only directories
-🔸 **-A:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	The first two “files” listed above are . and .., which are implicit directories. To see hidden files with these suppressed, use the -A flag:<img align="right" width="250" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/90742383-88a7-4ad5-93bc-0bae83d4ecb4"/>	
+🔸 **-F:**	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sometimes you want to know whether a given file is normal file, a directory, a symbolic link, an executable, or a network file, but don’t need information about permissions or owners. For this purpose, you can use the ls -F command.<br>
+🔸 **-R:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	List files recursively means show all the files inside the directories <br>
+🔸 **-S:**	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; List files by size <br>
+🔸 **-d:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	Only directories <br>
+🔸 **-A:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	The first two “files” listed above are . and .., which are implicit directories. To see hidden files with these suppressed, use the -A flag:<img align="right" width="250" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/90742383-88a7-4ad5-93bc-0bae83d4ecb4"/>	<br>
 
 * 🤔 Sudo find .			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;every single fine and directory underneath here
 * 🤔 Sudo find . -type d			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;only show directories and sub directories
@@ -490,14 +490,14 @@ Find files greater that 10MB in size and running a command on those files <img a
 
 
 ## Package Management System on Linux**  
-Most of linux distribution and most of its add-on software are installed via the package management system. Each package contain the files and other instructions needed to make one software component to work well and co-operate with other components that comprise the entire system. Packages can depend each other. There are two low level broad package families called package managers.  1- Debian 2- RPM 
+Most of linux distribution and most of its add-on software are installed via the package management system. Each package contain the files and other instructions needed to make one software component to work well and co-operate with other components that comprise the entire system. Packages can depend each other. There are two low level broad package families called package managers.  1- Debian 2- RPM <br>
 **Package Managers : Two Levels**  <img align="right" width="350" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0773eea4-60eb-4f3e-8ffc-fd22ced2fc71"/>
 Low level package manager take care of details of unpacking individual packages, running scripts, getting the software installed correctly.
-High level tool such as apt-get, yum or zypper, works with group of packages. Download the packages from the vendor and figures out the dependencies. Most of the time user only work with the high level tool which will take care of calling the low level tool as needed. Dependency resolution is a particularly important feature of the high level tool. As it handles the details of finding and installing each dependency for user. One should be careful, as installing single package result in many dozens or even hundreds of dependent packages being installed. 
+High level tool such as apt-get, yum or zypper, works with group of packages. Download the packages from the vendor and figures out the dependencies. Most of the time user only work with the high level tool which will take care of calling the low level tool as needed. Dependency resolution is a particularly important feature of the high level tool. As it handles the details of finding and installing each dependency for user. One should be careful, as installing single package result in many dozens or even hundreds of dependent packages being installed. <br><br>
 
 <p align="center">
-  <img width="310" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/58495ec8-db7f-424a-8029-8d2ff66f2f4d">
-  <img width="310" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/af00d576-692a-46d3-859b-42130810a0d3">
+  <img width="400" height="220" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/58495ec8-db7f-424a-8029-8d2ff66f2f4d">
+  <img width="400" height="220" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/af00d576-692a-46d3-859b-42130810a0d3">
 </p>
 
 
@@ -509,23 +509,23 @@ To see what contained in this package list		<img align="right" width="330" heigh
 
 All packages installed with name wget2						<img align="right" width="300" height="45" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ab79bab2-89a4-4a17-9d2a-b079b7fc1c16"/>
 Wget is a networking command-line tool that lets you download files and interact with REST APIs. <br>
-Install 	wget						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;			```sudo apt-get install wget2-dev```
+Install 	wget						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;			```sudo apt-get install wget2-dev``` <br>
 Remove wget				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;						```sudo apt-get remove wget```	
 
 
--------
+
 
 
 ## Linux Documentation Sources
 
 - **Man Pages**
 To get the information about something, we use man pages or manual pages.
-man socket 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			To get the info about socket 								
-man -f socket		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;					List of all the pages that called socket
-what is socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;	Same as man -f socket
-man 7 socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;				To see particular chapter
-man -a socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;				To see them all
-man -k socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;				To see the manual pages where socket is in the description.	
+man socket 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			To get the info about socket <br>								
+man -f socket		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;					List of all the pages that called socket<br>
+what is socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;	Same as man -f socket <br>
+man 7 socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;				To see particular chapter <br>
+man -a socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;				To see them all <br>
+man -k socket			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;				To see the manual pages where socket is in the description.	<br>
 
 
 ## Info Page Structure
@@ -618,7 +618,7 @@ File system is structured like a tree. In Linux, files are everything. Root dire
   <img width="250" height="350" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/cc1bd7b7-c0da-4cc9-98d2-4bcc2cbd2486">
 </p><br>
 
-## Filesystem varieties <img align="right" width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c7557f0a-f31a-4d06-a1fd-d374af906efd"/>
+## Filesystem varieties <img align="right" width="400" height="290" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c7557f0a-f31a-4d06-a1fd-d374af906efd"/>
 
 Lagacy file system such as FAT is also supported
 <br><br><br><br><br><br><br>
@@ -651,17 +651,13 @@ the file system tree) The basic arguments are the device node and mount point.
   <img width="350" height="270" align="right" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d93d32d5-0d8c-463a-9f6e-a32169e52568">
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Device node = 	/dev/sda5
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Device node = 	/dev/sda5 <br>
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Mount point= 	/home
 
 This will attach the file system contained in the disk partition associated with /dev/sda5 device node into the file system tree at the /home mount point. <br><br><br>		
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;								To un-mount				<img align="right" width="350" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/5665740c-a1cc-484f-99fd-dbc0e411f8e5"/>
-		
-
-
-<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;mount			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;				show all the present mount systems.
+	
+To un-mount				<img align="right" width="250" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/5665740c-a1cc-484f-99fd-dbc0e411f8e5"/> 
+Mount shows all the present mount systems				
 
 <br>
 
@@ -680,14 +676,15 @@ Contain files expected to change in size and content. <br><br><br><br><br><br><b
 
 - **/etc directory**
 Home for system configuration files. It contain no binary porgrames although some executable scripts. Supper user can modify config files.
-<br>
+
+
 -	**/boot directory**
 User specific configuration files found under this directory. 
-<br>
+
 
 -	**/lib and /lib64 directories**       
 /lib contain library which are common codes shared by applications and essential programs <img align="right" width="450" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/30bbd9fa-2d19-4ff4-87cf-43670385b76d"/>present in /bin and /sbin. These file names start with LD or LB. Most of them are dynamically loaded libraries, knows as shared libraries or Shared objects. Some Linux system contain lib64 directory containing. Lib64 is 64 bit library while lib is 32bit versions. 
-<br>
+
 
 - **Kernel modules or kernel code**       
 Often device drivers that can be loaded and unloaded <img align="right" width="450" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0f9e2cec-5334-41cc-8ba8-62c4d24212b7"/>
@@ -698,7 +695,7 @@ without restarting the system, are located in /lib/modules and then the kernel v
 We need to use removeable media such as usb, cd, dvd drive. <img align="right" width="350" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/463b5ce3-6aa7-45bc-8a0d-46b99bb0f3ad"/>
 To make the material accessible through the regular file system, 
 it has to be mounted at a convenient location. Any removeable media automatically mounted when the system notices something has been plugged in, while historically this was done under the /media directory. Modern lunux system mount under the /run directory. User STUDENT usb will be mounted at:	/run/media/student/myusbdrive
-<BR>
+
 
 - **Additional directories** found under the root directory   <img align="right" width="450" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f4c58e5d-50ea-4a8f-bcc5-487b3bab67ba"/>
 <br><br><br><br><br><br><br><br>
@@ -716,7 +713,7 @@ Diff is used to text files, for binary files one can use CMP.
 <p align="center">
   <img width="350" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/fb8c028e-fae8-47ce-b2f4-f3e633d705b7">
 </p>
-<br><br><br>
+<br><br><br><br>
 
 - **Use Diff3 and Ptaches** <img align="right" width="250" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4115fa1b-08a1-49e2-b693-933f5588755b"/>
 We can compare 3 files using Diff3 which uses one file as the reference basis for the other two.
