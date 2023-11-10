@@ -829,7 +829,7 @@ means more than one user can login at the same time.
 
 - **create user** 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -m = to make home directory as some distr not do so by default <br>
- 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -s = default shell to the bin bash	<br> <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/07fb9eb4-b0ec-46e9-bf82-e6e751e6de0f"/>
+ 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -s = default shell to the bin bash	<br> <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/07fb9eb4-b0ec-46e9-bf82-e6e751e6de0f"/> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -c = name <br>   <img align="right" width="550" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e12b3fb0-4fa4-4cd6-a8bc-2d88a548ee42"/> 
   <br>
   To log into new user account  <img align="right" width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/abff4656-1204-4398-9fac-a0ac7290ed56"/>
