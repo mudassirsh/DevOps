@@ -604,8 +604,8 @@ It start with cron expression, followed by script command to execute.
 
 
 <p align="center">
-  <img width="320" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e3da29e5-5678-47dd-b1bf-07c78d1f4d1f">
-  <img width="370" height="230" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/8c486a52-5649-421b-a30e-0beba89af21b">
+  <img width="350" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e3da29e5-5678-47dd-b1bf-07c78d1f4d1f">
+  <img width="450" height="230" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/8c486a52-5649-421b-a30e-0beba89af21b">
 </p> <br> 
 
 
@@ -621,7 +621,7 @@ File system is structured like a tree. In Linux, files are everything. Root dire
 ## Filesystem varieties <img align="right" width="400" height="290" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c7557f0a-f31a-4d06-a1fd-d374af906efd"/>
 
 Lagacy file system such as FAT is also supported
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br> <br><br>
 
 ## Linux Partitions
 Each file system on a linux system occupies a disk partition  i.e. 	
@@ -664,11 +664,11 @@ Mount shows all the present mount systems
 - **/Bin and /Sbin Directories**	
 <b>/Bin</b> directory contains executable binaries , <b>/sbin</b> directory, essential binaries related to system administration
 <p align="center">
-  <img width="630" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/1af1124c-a508-4513-88cd-aa83d11a40cc">
+  <img width="770" height="290" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/1af1124c-a508-4513-88cd-aa83d11a40cc">
 </p>
 
 - **/dev directory**		
-Contains device nodes. A type of pseudo file used by most hardware and software devices, except for network devices.<img align="right" width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bdb0cc2-220f-4407-ab0d-b94fb13f15c3"/> <br><br><br>
+Contains device nodes. A type of pseudo file used by most hardware and software devices, except for network devices.<img align="right" width="450" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bdb0cc2-220f-4407-ab0d-b94fb13f15c3"/> <br><br><br>
 
 
 - **/var directory**      <img align="right" width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/498d3a3e-1e80-4df2-9748-33b964c200f1"/>
@@ -689,7 +689,7 @@ User specific configuration files found under this directory.
 - **Kernel modules or kernel code**       
 Often device drivers that can be loaded and unloaded <img align="right" width="450" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0f9e2cec-5334-41cc-8ba8-62c4d24212b7"/>
 without restarting the system, are located in /lib/modules and then the kernel version number.
-<br><br>
+<br><br><br><br>
 
 - **/media, /run and /mnt**
 We need to use removeable media such as usb, cd, dvd drive. <img align="right" width="350" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/463b5ce3-6aa7-45bc-8a0d-46b99bb0f3ad"/>
@@ -703,7 +703,7 @@ it has to be mounted at a convenient location. Any removeable media automaticall
 - **/usr   directory tree** 
 Theoretically contain non-essential programs and <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3a5b199a-ccdb-4924-b38e-94499981604d"/>
 scripts in the sense they should not be needed to initially boot the system and has at least following subsidiaries. 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 - **Diff** 
 used to compare files and directories. This often <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/83e9edfa-3405-4da9-a8fe-0ebc7559ba0a"/>
@@ -713,13 +713,133 @@ Diff is used to text files, for binary files one can use CMP.
 <p align="center">
   <img width="350" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/fb8c028e-fae8-47ce-b2f4-f3e633d705b7">
 </p>
-<br><br><br><br>
+<br><br><br><br><br><br><br>
 
 - **Use Diff3 and Ptaches** <img align="right" width="250" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4115fa1b-08a1-49e2-b693-933f5588755b"/>
 We can compare 3 files using Diff3 which uses one file as the reference basis for the other two.
 For example, two people made changes to same file at the same time, diff3 can show changes being made to the original file. 
 <p align="center">
   <img width="550" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/73aa3a7b-9da0-4e95-b2dc-6743ed754605">
+</p><br>
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Patch file is running diff with the correct options. <img align="right" width="450" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/98afa0fc-4a27-4a0f-a6e2-68ef6b3d96e7"/>
+
+
+- **File Utility**
+In linux system file extension does not categorise it as it may in other OS. We can not assume the .txt is only the text file, however can be an executable program. In Linux, the file name is meaningful to the user of the system than system itself.In Windows, exe is the executable binary file.
+
+- **Backup (rsync)**
+Cp command is used to copy paste file within the same machine, but rsync command used to copy from one machine to another.
+Rsync is very effective when recursively copying one directory tree to another.									
+Note: rysync can be very destructive, to avoid it, better test it by adding this to command.		-dry-run 				
+
+<p align="">
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Backup &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <img width="450" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/284e12c9-67d7-40de-bd25-7438894d5181"> <br>
+ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Copying &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<img width="320" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3490b365-0808-4987-bbf5-20eae0ea4705"> <br>
+  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Copying &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<img width="350" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0da5f21c-a065-45fd-a141-e16962a56032">
 </p>
+																		
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Data is being compressed save the time and space in this operation. <br><br>
+
+<p align="center">
+  <img width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/dfce539f-c6a8-4673-8a05-1eb23669f0f9"> &nbsp;&nbsp;&nbsp;
+  <img width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/a363cd97-c9d5-407d-9f2e-3757af623485">
+</p>
+
+
+## Text Editors
+
+- **Creating files without Editor** 
+	Single > send the output of a command to a new file	<img align="right" width="350" height="65" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0386b8a4-1d09-4941-a59d-c8d74874fa5f"/>
+
+	Double >>   will append the new output to existing file	
+<br>
+	Second technique is to use the cat with re-direction <img align="right" width="250" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b0698e90-9f5d-466f-bd99-2c0aed679b02"/>
+<br>
+
+<p align="center">
+  <img width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ac440cd5-469f-4d64-9eb3-ec67e0f60979">
+</p>
+
+- **Nano and gedit**	
+	Nano is terminal based editor while gedit is GUI based editor.	
+  To open file in nano   ```nano <filename>```					if doesn't exist, it will be created.
+
+
+- **Vi**																
+	Using vi, all commands given using keyboard.  <img align="right" width="300" height="170" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/883bc47b-02cd-4b96-b4e1-169f020d5ba3"/>
+
+<p align="center">
+  <img width="250" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/a6052141-27ae-4cf0-ac8e-33fe6d70de52">
+  <img width="200" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/6fa8eb45-73bd-43c1-9408-a3d6449f25d1">
+</p> 
+<br> <br><br><br><br>
+<p align="center">
+  <img width="270" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b8b776fd-1153-41f7-90d5-6c5b718bdc61">
+  <img width="270" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9c5205ea-4b68-4555-932a-fee5b8f4a9ee">
+  <img width="270" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f68ea96a-aff7-4f2e-87ce-09711ab23b96">
+</p>
+
+<br>
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; When searching for text in vi	
+<p align="center">
+  <img width="300" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2bd3b826-ec8f-45e4-9ab3-b171d3ae73d6"> &nbsp;&nbsp;&nbsp;
+  <img width="300" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/33e95c12-b06d-45dc-ab46-d6037712ee2f">
+</p>
+
+
+
+## User Environments
+
+- **Identify Current User**  <img align="right" width="340" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c316f36b-1a1b-4202-be57-3f0dcbe64e9a"/>
+Linux is a multi user operating system, 
+means more than one user can login at the same time.
+<br>
+
+
+- **User start up files**
+	/etc directory define global settings for all users. <img align="right" width="340" height="210" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b7870469-99b1-4a48-a64e-b1f632a653fd"/>
+
+
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Once we login startup files ran in the order 	
+
+<br> <br> <br> <br> <br>
+
+- **Groups**
+	Group membership administered through /etc/group files. This shows the <img align="right" width="300" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2edced20-c35d-4d7f-9456-9b21f5492816"/>
+
+	Groups and their members. Permissions on various files and directories administer
+	at group level.
+
+
+
+- **Adding and Removing Users**
+	Only root users add or remove users and groups.			
+  ````
+  sudo useradd user1					
+  sudo userdel user1 
+  ````
+
+  Adding user, which by default sets home directory to <b>/home/user1 </b>
+
+  And this directory will be populated with some basic files (user = bmoose) <img align="right" width="300" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2432ce03-06fb-40bd-bacb-a188faaadc34"/>
+  <br>By using the -r we not only remove the account but also the recursive directories associated to the account.
+
+- **create user** 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -m = to make home directory as some distr not do so by default <br>
+ 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -s = default shell to the bin bash	<br> <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/07fb9eb4-b0ec-46e9-bf82-e6e751e6de0f"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -c = name <br>   <img align="right" width="550" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e12b3fb0-4fa4-4cd6-a8bc-2d88a548ee42"/> 
+  <br>
+  To log into new user account  <img align="right" width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/abff4656-1204-4398-9fac-a0ac7290ed56"/>
+  <br>
+  To display the contents of some specific directory  <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/53be3aae-87ee-47d2-9a2e-c701bdf77f8a"/>
+
+
+
+
+
+
 
 
