@@ -665,11 +665,12 @@ Mount shows all the present mount systems
 <b>/Bin</b> directory contains executable binaries , <b>/sbin</b> directory, essential binaries related to system administration
 <p align="center">
   <img width="770" height="290" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/1af1124c-a508-4513-88cd-aa83d11a40cc">
-</p>
+</p> 
+
 
 - **/dev directory**		
 Contains device nodes. A type of pseudo file used by most hardware and software devices, except for network devices.<img align="right" width="450" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bdb0cc2-220f-4407-ab0d-b94fb13f15c3"/> <br><br><br>
-
+<br>
 
 - **/var directory**      <img align="right" width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/498d3a3e-1e80-4df2-9748-33b964c200f1"/>
 Contain files expected to change in size and content. <br><br><br><br><br><br><br><br><br><br>
@@ -698,7 +699,7 @@ it has to be mounted at a convenient location. Any removeable media automaticall
 
 
 - **Additional directories** found under the root directory   <img align="right" width="450" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f4c58e5d-50ea-4a8f-bcc5-487b3bab67ba"/>
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br> <br>
 
 - **/usr   directory tree** 
 Theoretically contain non-essential programs and <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3a5b199a-ccdb-4924-b38e-94499981604d"/>
@@ -735,9 +736,9 @@ Rsync is very effective when recursively copying one directory tree to another.
 Note: rysync can be very destructive, to avoid it, better test it by adding this to command.		-dry-run 				
 
 <p align="">
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Backup &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <img width="450" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/284e12c9-67d7-40de-bd25-7438894d5181"> <br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Backup &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <img width="500" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/284e12c9-67d7-40de-bd25-7438894d5181"> <br>
  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Copying &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<img width="320" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3490b365-0808-4987-bbf5-20eae0ea4705"> <br>
-  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Copying &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<img width="350" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0da5f21c-a065-45fd-a141-e16962a56032">
+  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Copying &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<img width="500" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0da5f21c-a065-45fd-a141-e16962a56032">
 </p>
 																		
 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Data is being compressed save the time and space in this operation. <br><br>
@@ -760,19 +761,19 @@ Note: rysync can be very destructive, to avoid it, better test it by adding this
 
 <p align="center">
   <img width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ac440cd5-469f-4d64-9eb3-ec67e0f60979">
-</p>
+</p> <br>
 
 - **Nano and gedit**	
 	Nano is terminal based editor while gedit is GUI based editor.	
   To open file in nano   ```nano <filename>```					if doesn't exist, it will be created.
-
+<br>
 
 - **Vi**																
 	Using vi, all commands given using keyboard.  <img align="right" width="300" height="170" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/883bc47b-02cd-4b96-b4e1-169f020d5ba3"/>
 
 <p align="center">
-  <img width="250" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/a6052141-27ae-4cf0-ac8e-33fe6d70de52">
-  <img width="200" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/6fa8eb45-73bd-43c1-9408-a3d6449f25d1">
+  <img width="250" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/a6052141-27ae-4cf0-ac8e-33fe6d70de52">
+  <img width="200" height="35" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/6fa8eb45-73bd-43c1-9408-a3d6449f25d1">
 </p> 
 <br> <br><br><br><br>
 <p align="center">
@@ -796,7 +797,7 @@ Note: rysync can be very destructive, to avoid it, better test it by adding this
 - **Identify Current User**  <img align="right" width="340" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c316f36b-1a1b-4202-be57-3f0dcbe64e9a"/>
 Linux is a multi user operating system, 
 means more than one user can login at the same time.
-<br>
+<br> <br>
 
 
 - **User start up files**
@@ -805,14 +806,14 @@ means more than one user can login at the same time.
 
 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Once we login startup files ran in the order 	
 
-<br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> <br>
 
 - **Groups**
 	Group membership administered through /etc/group files. This shows the <img align="right" width="300" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2edced20-c35d-4d7f-9456-9b21f5492816"/>
 
 	Groups and their members. Permissions on various files and directories administer
 	at group level.
-
+<br> <br><br><br><br><br>
 
 
 - **Adding and Removing Users**
@@ -826,20 +827,157 @@ means more than one user can login at the same time.
 
   And this directory will be populated with some basic files (user = bmoose) <img align="right" width="300" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2432ce03-06fb-40bd-bacb-a188faaadc34"/>
   <br>By using the -r we not only remove the account but also the recursive directories associated to the account.
-
+<br>
 - **create user** 
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -m = to make home directory as some distr not do so by default <br>
- 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -s = default shell to the bin bash	<br> <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/07fb9eb4-b0ec-46e9-bf82-e6e751e6de0f"/> <br>
+ 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -s = default shell to the bin bash	<br> <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/07fb9eb4-b0ec-46e9-bf82-e6e751e6de0f"/> 
+  <br>
+  <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -c = name <br>   <img align="right" width="550" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e12b3fb0-4fa4-4cd6-a8bc-2d88a548ee42"/> 
-  <br>
-  To log into new user account  <img align="right" width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/abff4656-1204-4398-9fac-a0ac7290ed56"/>
-  <br>
-  To display the contents of some specific directory  <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/53be3aae-87ee-47d2-9a2e-c701bdf77f8a"/>
+  <br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To log into new user account  <img align="right" width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/abff4656-1204-4398-9fac-a0ac7290ed56"/>
+  <br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To display the contents of some specific directory  <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/53be3aae-87ee-47d2-9a2e-c701bdf77f8a"/>
+
+<br>
+
+- **Adding and Deleting group**
+
+<p align="center">
+  <img width="450" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/8188aff2-8e68-4dc6-8433-f0b218205087">
+  <img width="400" height="25" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/02278963-65e5-428d-9b2e-f8937fc1593f">
+</p>
 
 
+- **Adding user to existing group (using mod)**
+First look at what groups user already belongs to <img align="right" width="300" height="45" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/55c7a88a-81c9-4017-a219-1bc3bed18a3e"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rjsquirrel = group  
+<br>
+  
+  Group mod is used to change group properties such as group ID with -G option <img align="right" width="400" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d66affff-5ecc-4bca-93ec-42394361b53c"/>
+<br><br>
 
 
+- **Root account**	
+	Root account is very powerful and has full access to the system. Its often called administrator account. 
+	Use sudo to assign more limited privileges to user account, and used for temporary basis.
+<br>
+- **Environment Variable**
+	Env variable is just a character string that contain information used by one or more application. There are number of ways to view the value of currently set environment variables.
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 set  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 	or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	  export
+
+<br>
+
+- **The Home Variable**
+	Home is the environment variable that represent the home or login directory of the user.
+	~ value is often used as abbreviation value to the home
+<p align="center">
+  <img width="350" height="280" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/18a20df0-7b32-4324-a97d-132ba6687223">
+  <img width="500" height="350" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2aecf75d-5664-41ac-8199-441745b2f634">
+</p>
+<br>
 
 
+- **The Path Variable**
+	Path is an order list of directories. Path is scanned when a command is given to find the appropriate program or script to run. Each directory in the path is separated by colons 
+
+<p align="center">
+  <img width="470" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d332a6ae-85d5-40df-bccd-e4490330dfa5">
+  <img width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ee33ffb8-a34d-4b16-8587-e7dd46170954">
+</p>
+<br>
+
+- **The SHELL Variable**
+	The environment variable shell, points to the user default command shell. The program whatever we type in a command window usually bash and it contains the full path name to the shell. <img align="right" width="200" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/96826ed3-804e-49a4-b1ea-f2cb3ab924ef"/>
+<br>
+
+- **The Command Line Prompt (PS1)**
+	Prompt statement (PS) is used to customise whatever we would like to type in 
+<p align="center">
+  <img width="250" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e376b114-cf36-4702-9525-42b8231babc4">
+  <img width="320" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bbc12ff-107c-4418-b230-216d196ad7c9">
+  <img width="270" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c0946bd7-1168-4e2b-85d6-088195dc65fc">
+</p>
+<br>
+
+- **Recalling Previous Commands**
+<img align="right" width="350" height="130" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/51f7e131-2ff9-4ffb-b8e4-b7a5a574a126"/>
+<br> <br><br><br><br>
+
+- **Keyboard shotcuts**
+<p align="right">
+  <img width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/475abc22-7fcf-438f-8fd4-c5f5b1ea4a42">
+</p>
+
+<br>
+
+
+- **File Ownership AND Permission**
+<p align="right">
+  <img width="550" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/677363b8-aad8-43c5-a811-0040d16978a0">
+</p>
+
+<p align="center">
+  <img width="100" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/638de802-d8c8-41fb-b66a-ea5c1b387146">
+  <img width="200" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ae2bb0ab-02a4-4463-97cb-bd570dc041cc">
+  <img width="380" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f77518a0-facd-4017-bd54-eab5c848c3f2">
+</p>
+
+<p align="center">
+  <img width="250" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/eba3828b-cc30-4868-a253-c41ca57508ca">
+  <img width="420" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3b4637e4-483f-4615-a63d-ebd9bf343b23">
+</p>
+<br>
+
+- **Change ownership and change group**
+<p align="center">
+  <img width="430" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b8312047-2976-4c39-bda7-c9709fba4a39">
+  <img width="300" height="170" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/030bc00e-c578-40ed-aa7d-ebaf4b2c605f">
+</p>
+<br>
+
+- **Command line tools for manipulating text files**
+	To read file		````  cat readme.txt	  ````			
+	Main purpose of the cat is to combine or concatenate 
+
+<p align="center">
+  <img width="500" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c5fff1b3-7da6-4942-b4f3-ae4ac2cd5473">
+  <img width="500" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b9720a8e-3fd7-4663-aec7-df05a17a1f1e">
+</p>
+
+Create file3 with the text of file 1 & 2   ```` Cat file1.txt file2.txt > file3.txt ````			
+
+In case we want to load a very large file but we don’t want to overload the system, we can do so by apply the less switch <img align="right" width="250" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c091bf03-10b9-4977-9ac8-b7357dce70ec"/>
+<br><br>
+
+- **Sort**
+<p align="center">
+  <img width="550" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/7404819d-3bd1-4782-9535-36ac596b9dfc">
+</p>
+
+- **Unique**		
+unique is used to remove repetitive values. Sort and unique can applied together on multiple files. <img align="right" width="350" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2d6683ea-e284-42df-859e-3463bbb83415"/> <br>
+<img align="right" width="350" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c9bf51cd-7c11-4da1-b1bc-92f673633cda"/><br>Count the number of duplicate entries<img align="right" width="350" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/bc758b51-0c5f-4f36-b17a-e138c8063c7e"/>
+<br><br>
+
+Below are two files containing Names and IDs and phone numbers
+<p align="center">
+  <img width="150" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9435680e-34dd-4260-8ac7-78e13a03e248">
+  <img width="150" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ef34ea19-12da-4968-9c39-d3893d04fd7f">
+</p>
+
+We can combine these values and see them together in one file		-d = delimeter			<img align="right" width="350" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/fab89f36-c74b-4eec-82d6-a1f6f0b1e3b7"/>
+
+
+<p align="center">
+  <img width="500" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/41ca11a6-c18a-40e4-8c5b-acfffea24e3e">
+  <img width="300" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/6c723490-8d77-48cd-b0c4-e19e5b15ae54">
+</p>
+
+<p align="center">
+  <img width="400" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/babed564-62f5-4a5b-b292-0457074a03ed">
+  <img width="500" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4c7042c8-6ba7-4f50-b408-2bd1b90c9431">
+</p>
 
 
