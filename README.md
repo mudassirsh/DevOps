@@ -651,8 +651,8 @@ the file system tree) The basic arguments are the device node and mount point.
   <img width="350" height="270" align="right" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d93d32d5-0d8c-463a-9f6e-a32169e52568">
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Device node = 	/dev/sda5 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Mount point= 	/home
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Device node = 	/dev/sda5 <br>
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mount point= 	/home
 
 This will attach the file system contained in the disk partition associated with /dev/sda5 device node into the file system tree at the /home mount point. <br><br><br>		
 	
@@ -699,12 +699,12 @@ it has to be mounted at a convenient location. Any removeable media automaticall
 
 
 - **Additional directories** found under the root directory   <img align="right" width="450" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f4c58e5d-50ea-4a8f-bcc5-487b3bab67ba"/>
-<br><br><br><br><br><br><br><br> <br>
+<br><br><br><br><br><br><br><br> <br><br>
 
 - **/usr   directory tree** 
 Theoretically contain non-essential programs and <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3a5b199a-ccdb-4924-b38e-94499981604d"/>
 scripts in the sense they should not be needed to initially boot the system and has at least following subsidiaries. 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 - **Diff** 
 used to compare files and directories. This often <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/83e9edfa-3405-4da9-a8fe-0ebc7559ba0a"/>
@@ -777,9 +777,9 @@ Note: rysync can be very destructive, to avoid it, better test it by adding this
 </p> 
 <br> <br><br><br><br>
 <p align="center">
-  <img width="270" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b8b776fd-1153-41f7-90d5-6c5b718bdc61">
-  <img width="270" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9c5205ea-4b68-4555-932a-fee5b8f4a9ee">
-  <img width="270" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f68ea96a-aff7-4f2e-87ce-09711ab23b96">
+  <img width="340" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b8b776fd-1153-41f7-90d5-6c5b718bdc61">
+  <img width="340" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9c5205ea-4b68-4555-932a-fee5b8f4a9ee">
+  <img width="340" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f68ea96a-aff7-4f2e-87ce-09711ab23b96">
 </p>
 
 <br>
@@ -787,7 +787,7 @@ Note: rysync can be very destructive, to avoid it, better test it by adding this
 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; When searching for text in vi	
 <p align="center">
   <img width="300" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2bd3b826-ec8f-45e4-9ab3-b171d3ae73d6"> &nbsp;&nbsp;&nbsp;
-  <img width="300" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/33e95c12-b06d-45dc-ab46-d6037712ee2f">
+  <img width="320" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/33e95c12-b06d-45dc-ab46-d6037712ee2f">
 </p>
 
 
@@ -797,7 +797,7 @@ Note: rysync can be very destructive, to avoid it, better test it by adding this
 - **Identify Current User**  <img align="right" width="340" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c316f36b-1a1b-4202-be57-3f0dcbe64e9a"/>
 Linux is a multi user operating system, 
 means more than one user can login at the same time.
-<br> <br>
+<br> <br><br>
 
 
 - **User start up files**
@@ -813,7 +813,7 @@ means more than one user can login at the same time.
 
 	Groups and their members. Permissions on various files and directories administer
 	at group level.
-<br> <br><br><br><br><br>
+<br> <br><br><br><br><br><br>
 
 
 - **Adding and Removing Users**
@@ -828,19 +828,20 @@ means more than one user can login at the same time.
   And this directory will be populated with some basic files (user = bmoose) <img align="right" width="300" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2432ce03-06fb-40bd-bacb-a188faaadc34"/>
   <br>By using the -r we not only remove the account but also the recursive directories associated to the account.
 <br>
+
 - **create user** 
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -m = to make home directory as some distr not do so by default <br>
- 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -s = default shell to the bin bash	<br> <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/07fb9eb4-b0ec-46e9-bf82-e6e751e6de0f"/> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -m = to make home directory as some distr not do so by default 
   <br>
-  <br>
+ 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -s = default shell to the bin bash	<br> <img align="right" width="470" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/07fb9eb4-b0ec-46e9-bf82-e6e751e6de0f"/> 
+  <br><br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -c = name <br>   <img align="right" width="550" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e12b3fb0-4fa4-4cd6-a8bc-2d88a548ee42"/> 
-  <br><br>
+  <br><br><br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To log into new user account  <img align="right" width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/abff4656-1204-4398-9fac-a0ac7290ed56"/>
-  <br><br>
+  <br><br><br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To display the contents of some specific directory  <img align="right" width="450" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/53be3aae-87ee-47d2-9a2e-c701bdf77f8a"/>
 
-<br>
+<br><br>
 
 - **Adding and Deleting group**
 
@@ -856,13 +857,14 @@ First look at what groups user already belongs to <img align="right" width="300"
 <br>
   
   Group mod is used to change group properties such as group ID with -G option <img align="right" width="400" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d66affff-5ecc-4bca-93ec-42394361b53c"/>
-<br><br>
+<br><br><br>
 
 
 - **Root account**	
 	Root account is very powerful and has full access to the system. Its often called administrator account. 
 	Use sudo to assign more limited privileges to user account, and used for temporary basis.
 <br>
+
 - **Environment Variable**
 	Env variable is just a character string that contain information used by one or more application. There are number of ways to view the value of currently set environment variables.
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 set  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 	or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	  export
@@ -873,8 +875,8 @@ First look at what groups user already belongs to <img align="right" width="300"
 	Home is the environment variable that represent the home or login directory of the user.
 	~ value is often used as abbreviation value to the home
 <p align="center">
-  <img width="350" height="280" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/18a20df0-7b32-4324-a97d-132ba6687223">
-  <img width="500" height="350" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2aecf75d-5664-41ac-8199-441745b2f634">
+  <img width="220" height="220" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/18a20df0-7b32-4324-a97d-132ba6687223">
+  <img width="500" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2aecf75d-5664-41ac-8199-441745b2f634">
 </p>
 <br>
 
@@ -884,20 +886,20 @@ First look at what groups user already belongs to <img align="right" width="300"
 
 <p align="center">
   <img width="470" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d332a6ae-85d5-40df-bccd-e4490330dfa5">
-  <img width="350" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ee33ffb8-a34d-4b16-8587-e7dd46170954">
+  <img width="350" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ee33ffb8-a34d-4b16-8587-e7dd46170954">
 </p>
 <br>
 
 - **The SHELL Variable**
-	The environment variable shell, points to the user default command shell. The program whatever we type in a command window usually bash and it contains the full path name to the shell. <img align="right" width="200" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/96826ed3-804e-49a4-b1ea-f2cb3ab924ef"/>
-<br>
+	The environment variable shell, points to the user default command shell. The program whatever we type in a command window usually bash and it contains the full path name to the shell. <img align="right" width="240" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/96826ed3-804e-49a4-b1ea-f2cb3ab924ef"/>
+<br><br>
 
 - **The Command Line Prompt (PS1)**
 	Prompt statement (PS) is used to customise whatever we would like to type in 
 <p align="center">
-  <img width="250" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e376b114-cf36-4702-9525-42b8231babc4">
-  <img width="320" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bbc12ff-107c-4418-b230-216d196ad7c9">
-  <img width="270" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c0946bd7-1168-4e2b-85d6-088195dc65fc">
+  <img width="240" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e376b114-cf36-4702-9525-42b8231babc4">
+  <img width="200" height="170" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bbc12ff-107c-4418-b230-216d196ad7c9">
+  <img width="250" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c0946bd7-1168-4e2b-85d6-088195dc65fc">
 </p>
 <br>
 
@@ -907,26 +909,25 @@ First look at what groups user already belongs to <img align="right" width="300"
 
 - **Keyboard shotcuts**
 <p align="right">
-  <img width="350" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/475abc22-7fcf-438f-8fd4-c5f5b1ea4a42">
+  <img width="400" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/475abc22-7fcf-438f-8fd4-c5f5b1ea4a42">
 </p>
-
 <br>
 
 
 - **File Ownership AND Permission**
 <p align="right">
-  <img width="550" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/677363b8-aad8-43c5-a811-0040d16978a0">
+  <img width="550" height="140" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/677363b8-aad8-43c5-a811-0040d16978a0">
 </p>
 
 <p align="center">
-  <img width="100" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/638de802-d8c8-41fb-b66a-ea5c1b387146">
+  <img width="110" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/638de802-d8c8-41fb-b66a-ea5c1b387146">
   <img width="200" height="120" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ae2bb0ab-02a4-4463-97cb-bd570dc041cc">
   <img width="380" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/f77518a0-facd-4017-bd54-eab5c848c3f2">
-</p>
+</p><br>
 
 <p align="center">
-  <img width="250" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/eba3828b-cc30-4868-a253-c41ca57508ca">
-  <img width="420" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3b4637e4-483f-4615-a63d-ebd9bf343b23">
+  <img width="230" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/eba3828b-cc30-4868-a253-c41ca57508ca">
+  <img width="440" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3b4637e4-483f-4615-a63d-ebd9bf343b23">
 </p>
 <br>
 
@@ -938,12 +939,12 @@ First look at what groups user already belongs to <img align="right" width="300"
 <br>
 
 - **Command line tools for manipulating text files**
-	To read file		````  cat readme.txt	  ````			
+	To read file		````  cat readme.txt	  ````	<br>		
 	Main purpose of the cat is to combine or concatenate 
 
 <p align="center">
-  <img width="500" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c5fff1b3-7da6-4942-b4f3-ae4ac2cd5473">
-  <img width="500" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b9720a8e-3fd7-4663-aec7-df05a17a1f1e">
+  <img width="600" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c5fff1b3-7da6-4942-b4f3-ae4ac2cd5473">
+  <img width="600" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b9720a8e-3fd7-4663-aec7-df05a17a1f1e">
 </p>
 
 Create file3 with the text of file 1 & 2   ```` Cat file1.txt file2.txt > file3.txt ````			
@@ -953,7 +954,7 @@ In case we want to load a very large file but we don’t want to overload the sy
 
 - **Sort**
 <p align="center">
-  <img width="550" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/7404819d-3bd1-4782-9535-36ac596b9dfc">
+  <img width="600" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/7404819d-3bd1-4782-9535-36ac596b9dfc">
 </p>
 
 - **Unique**		
@@ -963,21 +964,22 @@ unique is used to remove repetitive values. Sort and unique can applied together
 
 Below are two files containing Names and IDs and phone numbers
 <p align="center">
-  <img width="150" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9435680e-34dd-4260-8ac7-78e13a03e248">
-  <img width="150" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ef34ea19-12da-4968-9c39-d3893d04fd7f">
+  <img width="100" height="150" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/9435680e-34dd-4260-8ac7-78e13a03e248">&nbsp;&nbsp;
+  <img width="100" height="150" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ef34ea19-12da-4968-9c39-d3893d04fd7f">
 </p>
 
 We can combine these values and see them together in one file		-d = delimeter			<img align="right" width="350" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/fab89f36-c74b-4eec-82d6-a1f6f0b1e3b7"/>
+<br>
 
 
 <p align="center">
-  <img width="500" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/41ca11a6-c18a-40e4-8c5b-acfffea24e3e">
-  <img width="300" height="300" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/6c723490-8d77-48cd-b0c4-e19e5b15ae54">
+  <img width="600" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/41ca11a6-c18a-40e4-8c5b-acfffea24e3e">
+  <img width="300" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/6c723490-8d77-48cd-b0c4-e19e5b15ae54">
 </p>
 
 <p align="center">
   <img width="400" height="30" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/babed564-62f5-4a5b-b292-0457074a03ed">
-  <img width="500" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4c7042c8-6ba7-4f50-b408-2bd1b90c9431">
+  <img width="560" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/4c7042c8-6ba7-4f50-b408-2bd1b90c9431">
 </p>
 
 
