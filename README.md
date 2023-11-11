@@ -626,7 +626,7 @@ Lagacy file system such as FAT is also supported
 ## Linux Partitions
 Each file system on a linux system occupies a disk partition  i.e. 	
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; file system = /dev/sda1		using partition		/dev/sda
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <b>file system = /dev/sda1		using partition		/dev/sda </b>
 
 Programs required to run are kept on a separate partition known as root or slash<br>
 
@@ -651,8 +651,8 @@ the file system tree) The basic arguments are the device node and mount point.
   <img width="350" height="270" align="right" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d93d32d5-0d8c-463a-9f6e-a32169e52568">
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Device node = 	/dev/sda5 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mount point= 	/home
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Device node = 	/dev/sda5 <br>
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mount point= 	/home
 
 This will attach the file system contained in the disk partition associated with /dev/sda5 device node into the file system tree at the /home mount point. <br><br><br>		
 	
@@ -704,7 +704,7 @@ it has to be mounted at a convenient location. Any removeable media automaticall
 - **/usr   directory tree** 
 Theoretically contain non-essential programs and <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/3a5b199a-ccdb-4924-b38e-94499981604d"/>
 scripts in the sense they should not be needed to initially boot the system and has at least following subsidiaries. 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 - **Diff** 
 used to compare files and directories. This often <img align="right" width="450" height="250" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/83e9edfa-3405-4da9-a8fe-0ebc7559ba0a"/>
@@ -802,15 +802,12 @@ means more than one user can login at the same time.
 
 - **User start up files**
 	/etc directory define global settings for all users. <img align="right" width="340" height="210" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b7870469-99b1-4a48-a64e-b1f632a653fd"/>
-
-
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Once we login startup files ran in the order 	
+  Once we login startup files ran in the order 	
 
 <br> <br> <br> <br> <br> <br>
 
 - **Groups**
 	Group membership administered through /etc/group files. This shows the <img align="right" width="300" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/2edced20-c35d-4d7f-9456-9b21f5492816"/>
-
 	Groups and their members. Permissions on various files and directories administer
 	at group level.
 <br> <br><br><br><br><br><br>
@@ -866,8 +863,8 @@ First look at what groups user already belongs to <img align="right" width="300"
 <br>
 
 - **Environment Variable**
-	Env variable is just a character string that contain information used by one or more application. There are number of ways to view the value of currently set environment variables.
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 set  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 	or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	  export
+	Env variable is just a character string that contain information used by one or more application. There are number of ways to view the value of currently set environment variables.<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b> set  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 	or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	  export<b>
 
 <br>
 
@@ -887,18 +884,17 @@ First look at what groups user already belongs to <img align="right" width="300"
 <p align="center">
   <img width="470" height="70" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/d332a6ae-85d5-40df-bccd-e4490330dfa5">
   <img width="350" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/ee33ffb8-a34d-4b16-8587-e7dd46170954">
-</p>
-<br>
+</p><br>
 
 - **The SHELL Variable**
-	The environment variable shell, points to the user default command shell. The program whatever we type in a command window usually bash and it contains the full path name to the shell. <img align="right" width="240" height="60" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/96826ed3-804e-49a4-b1ea-f2cb3ab924ef"/>
-<br><br>
+	The environment variable shell, points to the user default command shell. The program whatever we type in a command window usually bash and it contains the full path name to the shell. <img align="right" width="230" height="50" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/96826ed3-804e-49a4-b1ea-f2cb3ab924ef"/>
+<br><br><br>
 
 - **The Command Line Prompt (PS1)**
 	Prompt statement (PS) is used to customise whatever we would like to type in 
 <p align="center">
-  <img width="240" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e376b114-cf36-4702-9525-42b8231babc4">
-  <img width="200" height="170" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bbc12ff-107c-4418-b230-216d196ad7c9">
+  <img width="260" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e376b114-cf36-4702-9525-42b8231babc4">
+  <img width="220" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bbc12ff-107c-4418-b230-216d196ad7c9">
   <img width="250" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c0946bd7-1168-4e2b-85d6-088195dc65fc">
 </p>
 <br>
@@ -943,8 +939,8 @@ First look at what groups user already belongs to <img align="right" width="300"
 	Main purpose of the cat is to combine or concatenate 
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c5fff1b3-7da6-4942-b4f3-ae4ac2cd5473">
-  <img width="600" height="200" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b9720a8e-3fd7-4663-aec7-df05a17a1f1e">
+  <img width="640" height="240" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c5fff1b3-7da6-4942-b4f3-ae4ac2cd5473">
+  <img width="640" height="240" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/b9720a8e-3fd7-4663-aec7-df05a17a1f1e">
 </p>
 
 Create file3 with the text of file 1 & 2   ```` Cat file1.txt file2.txt > file3.txt ````			
