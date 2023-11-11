@@ -864,7 +864,7 @@ First look at what groups user already belongs to <img align="right" width="300"
 
 - **Environment Variable**
 	Env variable is just a character string that contain information used by one or more application. There are number of ways to view the value of currently set environment variables.<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b> set  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 	or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	  export<b>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<b> set  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 	or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	  export</b>
 
 <br>
 
@@ -894,7 +894,7 @@ First look at what groups user already belongs to <img align="right" width="300"
 	Prompt statement (PS) is used to customise whatever we would like to type in 
 <p align="center">
   <img width="260" height="100" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/e376b114-cf36-4702-9525-42b8231babc4">
-  <img width="220" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bbc12ff-107c-4418-b230-216d196ad7c9">
+  <img width="240" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/0bbc12ff-107c-4418-b230-216d196ad7c9">
   <img width="250" height="180" src="https://github.com/mudassir-sh/17marchNew/assets/149414511/c0946bd7-1168-4e2b-85d6-088195dc65fc">
 </p>
 <br>
