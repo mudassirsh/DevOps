@@ -68,5 +68,3 @@ Examples of boot loader GRUB & ISOLinux, dos u-boot . Once the post completed, c
 <p align="center">
   <img width="700" height="550" src="https://github.com/mudassirsh/Linux/assets/18271814/26c0ee5a-49ef-479e-9771-5e2fd4ffcbd0">
 </p>
-
-Next steps here
